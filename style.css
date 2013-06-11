@@ -73,3 +73,39 @@ text-decoration: none;
 
 
 /*END MENU SECTION CSS*/
+
+/*START GALLERY SECTION CSS*/
+#gallery-2{
+	background-image: url("http://bunnystest.gemdesign.me/wordpress/wp-content/uploads/2013/06/menuBg.jpg");
+	background-repeat:no-repeat;
+	background-position:center;
+	width:100%;
+}
+ #socialGallery{
+	background-color: #84B6C6;
+	position:absolute;
+	left:0%;
+	top:50%;
+	width:30%;
+	height:30%;
+	padding: 10px;
+	color: white;
+}
+#mainGallerySection{
+	background-color: #534741;
+	color: white;
+	position:absolute;
+	right:0%;
+	top:50%;
+	width:50%;
+	height:30%;
+	padding: 5px;
+}
+/*END MENU SECTION CSS*/
+
+
+
+
+
+
+
