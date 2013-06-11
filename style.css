@@ -1,0 +1,75 @@
+/*
+Theme Name:     Ego Child
+Description:    Child theme for the Ego theme
+Author:         Gem Design
+Template:       ego                            
+Version:        0.0.1
+*/
+/*LAYOUT CSS*/
+.section .content{max-width:1278px !important; padding-bottom: 0px !important;}/*Width of mockups?*/
+/*END LAYOUT CSS*/
+
+/*HEADER SECTION CSS*/
+.header.header-main {
+    display: block !important;
+}
+
+.header .inner .menu ul li.current_page_item a, .header .inner .menu ul li.current-menu-item a {
+-webkit-border-radius: 0px;
+-moz-border-radius: 0px;
+-o-border-radius: 0px;
+border-radius: 0px;
+padding: 5px 10px;
+background: #333;
+color: #EEEEEE;
+text-decoration: none;
+}
+
+/*END HEADER CSS*/
+
+/*MENU SECTION CSS*/
+
+#menu-2{
+	background-image: url("http://bunnystest.gemdesign.me/wordpress/wp-content/uploads/2013/06/menuBg.jpg");
+	background-repeat:no-repeat;
+	background-position:center; 
+}
+
+#happyMem{
+	color: white;
+	text-align:center;
+}
+
+#mainMenuSection{
+	background-color: #534741;
+	color: white;
+	height: 36em;
+	padding: 5px;
+}
+
+#myTitle{
+	color:white;
+}
+
+#social{
+	background-color: #84B6C6;
+	margin-top: 250px;
+	padding: 10px;
+	color: white;
+}
+
+#variousMenus{
+	float: right;
+}
+
+#ourMenus{
+	float: left;
+}
+
+.section-title h2{
+	display: none; 
+	font-family:sans-serif !important;
+}
+
+
+/*END MENU SECTION CSS*/
