@@ -81,24 +81,25 @@ text-decoration: none;
 	background-position:center;
 	position:relative;
 	width:100%;
-	height:1000px;
+	height: auto;
 	color:white;
 }
 .content.clearfix
 {
 position: absolute;
-height: 100%;
+height: auto;
 width: 100%;
 }
 #Gallery{
 color:white;
 }
-
+.section-title{
+margin-top: 1%;
+border-bottom: 0px solid #ddd;
+}
  #gallery-2 .section-title h2, #gallery-2 .section-title h3{
 display: inline;
 color:white !important;
-padding-top:10%;
-padding-bottom:2%
 }
 #folio-grid {
 max-width: 60%px;
@@ -107,7 +108,24 @@ padding: 0;
 overflow: hidden;
 margin: auto;
 }
-
+.attachment-post-thumbnail.wp-post-image
+{
+margin:auto;
+}
+.flexslider {
+margin: auto;
+}
+.folio-thumb
+{
+width: 250px;
+height: 250px;
+}
+.folio-link, .lazy
+{
+width:100%;
+height:100%;
+}
+.folio-thumb a .folio-thumb-rollover{position:absolute;display:table;width:100%;height:100%;background: #86b8c8;}
 /*END GALLERY SECTION CSS*/
 
 
