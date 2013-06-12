@@ -112,8 +112,14 @@ margin: auto;
 {
 margin:auto;
 }
-.flexslider {
+.flexslider{
 margin: auto;
+}
+.folio-thumb-container {
+width:auto !important;
+}
+#ajaxpage{
+float:none !important;
 }
 .folio-thumb
 {
