@@ -103,7 +103,7 @@ display: inline;
 color:white !important;
 }
 #folio-grid {
-max-width: 1200px;
+max-width: 1200px !important;
 z-index: 1;
 padding: 0;
 overflow: hidden;
