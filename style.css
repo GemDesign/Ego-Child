@@ -93,7 +93,8 @@ width: 100%;
 #Gallery{
 color:white;
 }
-.section-title{
+.section.odd .section-title, .section.odd .section-title
+{
 margin-top: 1%;
 border-bottom: 0px solid #ddd;
 }
@@ -113,7 +114,13 @@ margin: auto;
 margin:auto;
 }
 .flexslider{
-margin: auto;
+margin: auto !important;
+}
+#folio-navigation{
+z-index:999;
+}
+#ajax-content-outer {
+margin-bottom: 30px;
 }
 .folio-thumb-container {
 width:auto !important;
