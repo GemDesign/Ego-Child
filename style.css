@@ -12,7 +12,12 @@ Version:        0.0.1
 
 /*HEADER SECTION CSS*/
 .header.header-main {
-    display: block !important;
+   
+}
+
+.header{
+	position:fixed !important;
+top:20px;
 }
 
 .header .inner .menu ul li.current_page_item a, .header .inner .menu ul li.current-menu-item a {
@@ -26,45 +31,42 @@ color: #EEEEEE;
 text-decoration: none;
 }
 
+.header .inner{
+	max-width:1278px !important;
+}
+
+.admin-bar .header{
+	padding:20px;
+	/*top:849px !important;*/
+}
+
 /*END HEADER CSS*/
+
+/*HOME SECTION*/
+#home-2 .section-title{
+	display:none;
+	background-color:#86b8c8 !important;
+}
+
+.epicSlider .epic-logo {width:200px; height:200px;}
+
+.epic-logo:hover{cursor:pointer}
+
+/*END HOME SECTION*/
 
 /*MENU SECTION CSS*/
 
 #menu-2{
-	background-image: url("http://bunnystest.gemdesign.me/wordpress/wp-content/uploads/2013/06/menuBg.jpg");
-	background-repeat:no-repeat;
-	background-position:center; 
-}
-
-#happyMem{
-	color: white;
-	text-align:center;
-}
-
-#mainMenuSection{
-	background-color: #534741;
-	color: white;
-	height: 36em;
-	padding: 5px;
+	background:#86b8c8;
+	background-position:center;
+	position:relative;
+	width:100%;
+	height:380px;
+	color:white;
 }
 
 #myTitle{
 	color:white;
-}
-
-#social{
-	background-color: #84B6C6;
-	margin-top: 250px;
-	padding: 10px;
-	color: white;
-}
-
-#variousMenus{
-	float: right;
-}
-
-#ourMenus{
-	float: left;
 }
 
 .section-title h2{
@@ -72,6 +74,13 @@ text-decoration: none;
 	font-family:sans-serif !important;
 }
 
+#menu-2 .section-title{
+	display:none
+}
+
+#menusList{
+	text-align:center;
+}
 
 /*END MENU SECTION CSS*/
 
@@ -140,9 +149,13 @@ height:100%;
 }
 /*END GALLERY SECTION CSS*/
 
+/*CONTACT SECTION*/
+#contactMessage{
+	float:left;
+}
 
-
-
-
-
-
+#submitform{
+	float:left;
+	clear:both;
+}
+/*END CONTACT SECTION*/
