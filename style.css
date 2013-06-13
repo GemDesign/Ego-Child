@@ -206,8 +206,8 @@ color:white;
 position:absolute;
 height: 50%;
 width:30%;
-top:30%;
-left:10%;
+top:10%;
+left:15%;
 background:#86b8c8;
 }
 #contact-us-2 .column_two_thirds
@@ -219,6 +219,17 @@ padding:5%
 #contact-us-2{
 	background-color: #86b8c8;
 	color:white !important;
+	
+}
+#ContactTitle{
+	color:white;
+	margin-bottom: 75px;
+}
+#fb {
+position: absolute;
+right: 60px;
+top: -10px;
+border-radius:90px;
 }
 #contact-form{
 top:25%;
