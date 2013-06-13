@@ -208,7 +208,7 @@ color:white;
 }
 #ContactUS-Social
 {
-position:absolute;
+float: left;
 height: 50%;
 width:30%;
 top:10%;
@@ -231,10 +231,9 @@ padding:5%
 	margin-bottom: 75px;
 }
 #fb {
-position: absolute;
-right: 60px;
-top: -10px;
-border-radius:90px;
+position:relative;
+left:10px;
+top:5px;
 }
 #contact-form{
 top:25%;
