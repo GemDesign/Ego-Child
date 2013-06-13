@@ -17,9 +17,10 @@ src: url('Pacifico/Pacifico.ttf')
 }
 .teaser
 {
-font-family: Pacifico, "Palatino Linotype", "Book Antiqua", Palatino, serif;
+font-family: Pacifico, arial, helvetica, sans-serif;
 font-size:40px;
 }
+body {font-family:"Myriad Pro", arial, helvetica, sans-serif !important;}
 
 /*HEADER SECTION CSS*/
 .header.header-main {
