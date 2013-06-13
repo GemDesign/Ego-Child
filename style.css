@@ -175,8 +175,28 @@ height:100%;
 /*END GALLERY SECTION CSS*/
 
 /*CONTACT SECTION*/
+#ContactUS-Social
+{
+position:absolute;
+height: 50%;
+width:30%;
+top:30%;
+left:10%;
+background:#86b8c8;
+}
+#contact-us-2 .column_two_thirds
+{
+background:#86b8c8;
+width:90%;
+padding:5%
+}
 #contact-us-2{
 	background-color: #86b8c8;
+	color:white !important;
+}
+#contact-form{
+top:25%;
+float:right;
 }
 
 #contact-us-2 h4{
