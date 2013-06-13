@@ -60,6 +60,16 @@ text-decoration: none;
 /*END HEADER CSS*/
 
 /*HOME SECTION*/
+#downarrow{
+	position: absolute;
+	bottom: 50px;
+	margin: auto;
+	z-index: 10;
+	margin-left: -20px;
+	margin-left: 50%;
+
+}
+
 #home-2 .section-title{
 	display:none;
 	background-color:#86b8c8 !important;
