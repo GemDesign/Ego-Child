@@ -72,6 +72,11 @@ text-decoration: none;
 	color: white !important;
 }
 
+.epic-logo{
+	top:20% !important;
+	left: 90% !important;
+}
+
 .epicSlider .epic-logo {width:200px; height:200px;}
 
 .epic-logo:hover{cursor:pointer}
