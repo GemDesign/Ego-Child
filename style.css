@@ -15,12 +15,17 @@ Version:        0.0.1
 font-family: Pacifico;
 src: url('Pacifico/Pacifico.ttf')
 }
+@font-face
+{
+font-family: Gothic;
+src: url('Fonts/TRCenturyGothic.ttf')
+}
 .teaser
 {
 font-family: Pacifico, arial, helvetica, sans-serif;
 font-size:40px;
 }
-/*body {font-family:"Myriad Pro", arial, helvetica, sans-serif !important;}*/
+body {font-family:Gothic, arial, helvetica, sans-serif !important;}
 
 /*HEADER SECTION CSS*/
 .header.header-main {
