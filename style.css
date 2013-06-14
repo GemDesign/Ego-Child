@@ -170,6 +170,9 @@ margin:auto;
 .flexslider{
 margin: auto !important;
 }
+#ajax-content-outer {
+margin-bottom: 30px;
+}
 #folio-navigation{
 z-index:999;
 }
