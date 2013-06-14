@@ -176,8 +176,9 @@ margin-bottom: 30px;
 #folio-navigation{
 z-index:999;
 }
-#ajax-content-outer {
-margin-bottom: 30px;
+#ajaxpage p{
+margin: 50px;
+Text-align: left;
 }
 .folio-thumb-container {
 width:auto !important;
