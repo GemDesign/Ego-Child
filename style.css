@@ -273,4 +273,22 @@ float:right;
 	border-radius:0px;
 	width:110px;
 }
+
+#ContactTitle:hover + #facebookLike{
+	display: block;
+	cursor: pointer;
+}
+
+#facebookLike{
+	display: none;
+	position: absolute;
+	top:50px;
+	left: 50px;
+	background-color: white;
+	box-shadow: 1px 1px 5px black;
+}
+
+#facebookLike:hover{
+	display: block;
+}
 /*END CONTACT SECTION*/
