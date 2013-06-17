@@ -292,7 +292,6 @@ float:right;
 #facebookLike{
 	display: none;
 	position: absolute;
-	top:50px;
 	left: 50px;
 	background-color: white;
 	box-shadow: 1px 1px 5px black;
