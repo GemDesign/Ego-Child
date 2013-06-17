@@ -25,7 +25,7 @@ src: url('Fonts/TRCenturyGothic.ttf')
 font-family: Pacifico, arial, helvetica, sans-serif;
 font-size:40px;
 }
-body, h1, h2, h3, h4, p
+body, h1, h2, h3, h4
 {font-family:Gothic !important;}
 
 /*HEADER SECTION CSS*/
@@ -150,7 +150,7 @@ color:white;
 }
 .section.odd .section-title, .section.odd .section-title
 {
-margin-top: 1%;
+margin-top: 10px;
 border-bottom: 0px solid #ddd !important;
 }
  #gallery-2 .section-title h2, #gallery-2 .section-title h4{
@@ -226,6 +226,10 @@ color:white !important;
 {
 color:white;
 }
+#contact-us-2 .section-title {
+padding-bottom: 0px;
+margin-bottom: 0px;
+}
 #ContactUS-Social
 {
 float: left;
@@ -293,3 +297,9 @@ float:right;
 	display: block;
 }
 /*END CONTACT SECTION*/
+
+/*END Footer SECTION*/
+#footer{
+height:75px;;
+}
+/*END Footer SECTION*/
