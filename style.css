@@ -146,7 +146,6 @@ color:white;
 }
 .section.odd .section-title, .section.odd .section-title
 {
-margin-top: 10px;
 border-bottom: 0px solid #ddd !important;
 }
  #gallery-2 .section-title h2, #gallery-2 .section-title h4{
@@ -209,6 +208,7 @@ height:100%;
 }
 #tour .section-title h2{
 color:white;
+padding-top:130px;
 }
 #TourCover
 {
