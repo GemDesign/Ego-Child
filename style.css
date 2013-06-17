@@ -196,7 +196,7 @@ height:100%;
 /*END GALLERY SECTION CSS*/
 
 /*EVENTS SECTION*/
-#events-3{
+#events-3, #events-3  h2{
 	background-color: #86b8c8;
 	color:white !important;
 	
