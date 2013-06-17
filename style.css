@@ -27,7 +27,9 @@ font-size:40px;
 }
 body, h1, h2, h3, h4
 {font-family:Gothic !important;}
-
+.section-title{
+padding-top:20px;
+}
 /*HEADER SECTION CSS*/
 .header.header-main {
    display: block !important;
@@ -136,7 +138,6 @@ text-decoration: none;
 	width:100%;
 	height: auto;
 	color:white;
-	margin-top: 20px;
 }
 .content.clearfix
 {
@@ -199,14 +200,10 @@ height:100%;
 /*END GALLERY SECTION CSS*/
 
 /*EVENTS SECTION*/
-#events-3{
+#events-3, #events-3  h2{
 	background-color: #86b8c8;
 	color:white !important;
-	margin-top: 20px;
-}
-#events-3  h2{
-	background-color: #86b8c8;
-	color:white !important;
+	
 }
 /*END EVENTS SECTION*/
 
@@ -261,7 +258,6 @@ margin-bottom:0px !important;
 #contact-us-2{
 	background-color: #86b8c8;
 	color:white !important;
-	margin-top: 20px;
 	
 }
 #ContactTitle{
