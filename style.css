@@ -232,7 +232,7 @@ color:white !important;
 color:white;
 }
 #contact-us-2 .section-title {
-padding-bottom: 0px;
+padding-bottom: 1px;
 margin-bottom: 0px;
 }
 #ContactUS-Social
@@ -264,7 +264,7 @@ margin-bottom:0px !important;
 #fb {
 position:relative;
 left:10px;
-top:4px;
+top:12px;
 }
 #contact-form{
 top:25%;
