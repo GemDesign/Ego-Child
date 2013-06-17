@@ -112,13 +112,8 @@ text-decoration: none;
 	color:white;
 	padding-bottom: 20px;
 }
-
-#myTitle{
+#menu-2 .section-title h2{
 	color:white;
-}
-
-#menu-2 .section-title{
-	display:none
 }
 #menu-2 .section{
 	padding-top:150px;
