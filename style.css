@@ -206,14 +206,14 @@ height:100%;
 #tour{
 	background:#86b8c8;
 }
-#tour .section-title{
+#tour .section-title h2{
 color:white;
 }
 #TourCover
 {
 position:absolute;
 width:100%;
-height:100%;
+height:71.6%;
 background:#534741;
 text-align:center;
 opacity:.7;
