@@ -219,6 +219,7 @@ div#tour p{
 div#tour small{
 	display: none;
 }
+
 /*END TOUR SECTION*/
 
 /*CONTACT SECTION*/
@@ -302,11 +303,6 @@ float:right;
 	display: block;
 }
 
-#tour div.info-inner p {
-	position: absolute !important;
-	top: 220px !important;
-	left: 370px !important;
-}
 /*END CONTACT SECTION*/
 
 /*Start Footer SECTION*/
