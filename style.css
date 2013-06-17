@@ -303,5 +303,11 @@ float:right;
 #footer
 {
 height:75px !important;
+margin-top: 250px;
 }
 /*END Footer SECTION*/
+
+.clear
+{
+height:0px !important;
+}
