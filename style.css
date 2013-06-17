@@ -25,7 +25,8 @@ src: url('Fonts/TRCenturyGothic.ttf')
 font-family: Pacifico, arial, helvetica, sans-serif;
 font-size:40px;
 }
-body {font-family:Gothic, arial, helvetica, sans-serif !important;}
+body, h1, h2, h3, h4, p
+{font-family:Gothic !important;}
 
 /*HEADER SECTION CSS*/
 .header.header-main {
