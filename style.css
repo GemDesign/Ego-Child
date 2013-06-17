@@ -243,7 +243,8 @@ background:#86b8c8;
 {
 background:#86b8c8;
 width:90%;
-padding:7%
+padding:7%;
+margin-bottom:0px !important;
 }
 #contact-us-2{
 	background-color: #86b8c8;
@@ -298,8 +299,9 @@ float:right;
 }
 /*END CONTACT SECTION*/
 
-/*END Footer SECTION*/
-#footer{
-height:75px;;
+/*Start Footer SECTION*/
+#footer
+{
+height:75px !important;
 }
 /*END Footer SECTION*/
