@@ -112,7 +112,7 @@ text-decoration: none;
 	color:white;
 	padding-bottom: 20px;
 }
-#menu-2 .section-title h2{
+#menu-2 .section-title h2, #myTitle{
 	color:white;
 }
 #menu-2 .section{
