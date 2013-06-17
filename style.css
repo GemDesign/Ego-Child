@@ -195,6 +195,14 @@ height:100%;
 }
 /*END GALLERY SECTION CSS*/
 
+/*EVENTS SECTION*/
+#events-3{
+	background-color: #86b8c8;
+	color:white !important;
+	
+}
+/*END EVENTS SECTION*/
+
 /*TOUR SECTION*/
 #tour .section-title{
 	display: none;
