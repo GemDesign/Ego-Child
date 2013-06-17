@@ -294,10 +294,10 @@ float:right;
 	display: block;
 }
 
-#tour2 div.info-inner p {
+#tour div.info-inner p {
 	position: absolute !important;
-	top: 200px !important;
-	left: 350px !important;
+	top: 220px !important;
+	left: 370px !important;
 }
 /*END CONTACT SECTION*/
 
