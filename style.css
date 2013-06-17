@@ -203,8 +203,11 @@ height:100%;
 /*END EVENTS SECTION*/
 
 /*TOUR SECTION*/
+#tour{
+	background:#86b8c8;
+}
 #tour .section-title{
-	display: none;
+color:white;
 }
 #TourCover
 {
