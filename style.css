@@ -293,6 +293,12 @@ float:right;
 #facebookLike:hover{
 	display: block;
 }
+
+#tour-2 div.info-inner p {
+	position: absolute !important;
+	top: 200px !important;
+	left: 350px !important;
+}
 /*END CONTACT SECTION*/
 
 /*Start Footer SECTION*/
