@@ -81,12 +81,16 @@ width:100%;
 padding: 20px;
 text-align: center;
 }
+#Lunch, #Evening, #Party, #Specials, #Christmas, #FingerFood
+{
+display:none;
 }
 #MenuContent .MenuTitle
 {
 text-align:center;
 font-size:20px;
 }
+
 .header .inner .menu ul li.current_page_item a, .header .inner .menu ul li.current-menu-item a {
 -webkit-border-radius: 0px;
 -moz-border-radius: 0px;
