@@ -407,3 +407,71 @@ margin-top: 250px;
 {
 height:0px !important;
 }
+
+/*thumb-structure*/
+
+
+#menu-grid{max-width: 1200px !important;
+z-index: 1;
+padding: 0;
+overflow: hidden;
+margin: auto;} 
+
+.menu-thumb, .menu-thumb a, .menu-thumb a img,.menu-thumb a .menu-thumb-rollover {
+	-webkit-border-radius: 50%;
+	 -moz-border-radius: 50%;
+	  border-radius:50%;
+	  overflow:hidden;}
+
+.menu-thumb a img{
+	position:relative;
+	z-index:-1;
+	max-width: 100%;
+	margin: 0 auto;
+	-ms-interpolation-mode: bicubic;
+	overflow:hidden;
+	vertical-align: baseline;}
+
+.menu-thumb a .menu-thumb-rollover{
+	position:absolute;
+	display:table;
+	idth:100%;
+	height:100%;
+	background: #534741;
+	/*ie8 fallback*/ background: rgba(83,71,65,0.9); 
+	top:0;
+	opacity:0;
+	cursor: pointer; }
+
+.menu-thumb a .menu-thumb-rollover .thumbInfo{
+	display: table-cell; 
+	vertical-align: 
+	middle;width:100%;
+	font: 18px 'Open Sans', sans-serif; 
+	font-weight:bold;
+	color:#fff; 
+	text-align:center;}
+
+.menu-thumb-container{
+	width:22%;
+	position:relative;
+	margin:0 0 18px 0;
+	float:left;
+	padding:0 1.5%; 
+	overflow:hidden; 
+	z-index:1; }
+
+.menu-thumb{ position:relative;}
+
+.menu-thumb.active{border:5px solid rgba(255,39,120,0.9);-webkit-box-shadow:inset 0px 0px 0px 10px rgba(255,39,120,0.9)!important;-moz-box-shadow:inset 0px 0px 0px 10px rgba(255,39,120,0.9)!important;box-shadow:inset 0px 0px 0px 10px rgba(255,39,120,0.9) !important;}
+
+.menu-thumb a{width:100%;float:left;}
+
+.menu-thumb.last{margin-right:0;}
+
+/*odd*/
+.section.odd #menu-grid .menu-thumb-container .menu-thumb{border:5px solid #ccc;/*ie8 fallback*/ border:5px solid rgba(0,0,0,0.3);-webkit-box-shadow:inset 0px 0px 0px 10px rgba(255,255,255,0.2);-moz-box-shadow:inset 0px 0px 0px 10px rgba(255,255,255,0.2);box-shadow:inset 0px 0px 0px 10px rgba(255,255,255,0.2);}
+		
+		
+/*even*/
+.section.even #menu-grid .menu-thumb-container .menu-thumb{border:5px solid #666;/*ie8 fallback*/ border:5px solid rgba(153,153,153,0.3);-webkit-box-shadow:inset 0px 0px 0px 10px rgba(0,0,0,0.2);-moz-box-shadow:inset 0px 0px 0px 10px rgba(0,0,0,0.2);box-shadow:inset 0px 0px 0px 10px rgba(0,0,0,0.2);}	
