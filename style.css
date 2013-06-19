@@ -98,9 +98,10 @@ text-decoration: underline;
 .item{
 text-align:center;
 }
-.DishName{
+del{
 font-size: 20px;
 letter-spacing: 2px;
+text-decoration:none;
 }
 
 
