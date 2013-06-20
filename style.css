@@ -78,6 +78,7 @@ background:white;
 color:#86b8c8 !important;
 height:auto;
 width:90%;
+margin-top: 25px;
 padding-left: 5%;
 padding-right: 5%;
 text-align: center;
@@ -133,7 +134,7 @@ padding-top: 20px;
 }
 .upArrow {
 position: relative;
-top: 30px;
+top: -25px;
 margin: auto;
 width: 0;
 height: 0;
