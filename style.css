@@ -77,8 +77,9 @@ opacity:.5;
 background:white;
 color:#86b8c8 !important;
 height:auto;
-width:100%;
-padding: 20px;
+width:400%;
+padding-left: 20%;
+padding-right: 20%;
 text-align: center;
 display:none;
 }
@@ -90,6 +91,8 @@ display:none;
 {
 text-align:center;
 font-size:30px;
+position:relative;
+top:25px;
 }
 .SectionTitle{
 font-size: 25px;
@@ -117,7 +120,9 @@ border-top: 4px double #86b8c8 !important;
 {
 border-right: 1px dashed #86b8c8 !important;
 border-left: 1px dashed #86b8c8 !important;
-width: 46%;
+width: 45%;
+margin-left: 3%;
+padding-top: 20px;
 }
 
 
