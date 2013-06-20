@@ -131,7 +131,13 @@ margin-left: 3%;
 margin-top: 50px;
 padding-top: 20px;
 }
-
+.UpArrow {
+	width: 0; 
+	height: 0; 
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;	
+	border-bottom: 5px solid white;
+}
 
 /*Menu End*/
 .header .inner .menu ul li.current_page_item a, .header .inner .menu ul li.current-menu-item a {
