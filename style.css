@@ -131,12 +131,15 @@ margin-left: 3%;
 margin-top: 50px;
 padding-top: 20px;
 }
-.UpArrow {
-	width: 0; 
-	height: 0; 
-	border-left: 5px solid transparent;
-	border-right: 5px solid transparent;	
-	border-bottom: 5px solid white;
+.upArrow {
+position: relative;
+top: 30px;
+margin: auto;
+width: 0;
+height: 0;
+border-left: 20px solid transparent;
+border-right: 20px solid transparent;
+border-bottom: 25px solid white;
 }
 
 /*Menu End*/
