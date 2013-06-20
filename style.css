@@ -94,19 +94,22 @@ font-size:40px;
 position:relative;
 top:25px;
 letter-spacing: 4px;
+text-transform:uppercase;
 }
 .SectionTitle{
 font-size: 25px;
 text-decoration: underline;
+text-transform:uppercase;
 }
 .item{
 text-align:center;
 }
  del{
-font-size: 24px !important;
-letter-spacing: 4px;
+font-size: 18px !important;
+letter-spacing: 2px;
 text-decoration: none;
 font-weight: bold !important;
+text-transform:uppercase;
 }
 #MenuContent strong
 {
@@ -116,6 +119,7 @@ text-decoration: none;
 font-weight: bold !important;
 border-bottom: 4px double #86b8c8 !important;
 border-top: 4px double #86b8c8 !important;
+text-transform:uppercase;
 }
 #MenuContent .column_one_half
 {
