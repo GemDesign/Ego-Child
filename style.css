@@ -170,7 +170,7 @@ text-decoration: none;
 /*HOME SECTION*/
 #downarrow{
 	position: relative;
-	bottom:215px;
+	bottom:500px;
 	margin: auto;
 	z-index: 10;
 	margin-left: -20px;
@@ -178,7 +178,7 @@ text-decoration: none;
 
 }
 
-#home-2 .section-title{
+#home-2 .section-title h2{
 	color:white !important;
 }
 
