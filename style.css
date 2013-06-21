@@ -30,6 +30,8 @@ body, h1, h2, h3, h4
 {font-family:Gothic !important;}
 .section-title{
 padding-top:20px;
+font-size: 45px !important;
+line-height: 45px!important;
 }
 /*HEADER SECTION CSS*/
 .header.header-main {
