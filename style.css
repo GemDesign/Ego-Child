@@ -253,6 +253,9 @@ color:white;
 {
 border-bottom: 0px solid #ddd !important;
 }
+#gallery-2 .section-title h4{
+font-size:40px !important;
+}
  #gallery-2 .section-title h2, #gallery-2 .section-title h4{
 display: inline;
 color:white !important;
