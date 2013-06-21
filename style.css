@@ -24,6 +24,7 @@ src: url('Fonts/TRCenturyGothic.ttf')
 {
 font-family: Pacifico, arial, helvetica, sans-serif;
 font-size:40px;
+line-height: 60px;
 }
 body, h1, h2, h3, h4
 {font-family:Gothic !important;}
@@ -178,8 +179,7 @@ text-decoration: none;
 }
 
 #home-2 .section-title{
-	display:none;
-	background-color:#86b8c8 !important;
+	color:white !important;
 }
 
 #home-2 {
@@ -389,7 +389,7 @@ background:#86b8c8;
 #contact-us-2 .column_two_thirds
 {
 background:#86b8c8;
-width:90%;
+width:80%;
 padding:7%;
 margin-bottom:0px !important;
 }
