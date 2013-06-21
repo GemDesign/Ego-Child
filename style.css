@@ -287,14 +287,15 @@ Text-align: left;
 }
 .folio-thumb-container {
 width:auto !important;
+padding:7% !important;
 }
 #ajaxpage{
 float:none !important;
 }
 .folio-thumb
 {
-width: 250px;
-height: 250px;
+width: 280px;
+height: 280px;
 }
 .folio-link, .lazy
 {
