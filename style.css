@@ -302,6 +302,32 @@ height: 280px;
 width:100%;
 height:100%;
 }
+
+#MenuImages
+{
+width: 100%;
+height:auto;
+background:transparent;
+text-align: center;
+max-height:700px;
+}
+.MenuImage
+{
+margin: 40px;
+margin-left: 4.0%;
+margin-top: 1%;
+width: 250px;
+height: 250px;
+display: inline-block;
+cursor: pointer;
+border: 5px solid rgba(0,0,0,0.3);
+-webkit-box-shadow: inset 0px 0px 0px 10px rgba(255,255,255,0.2);
+-moz-box-shadow: inset 0px 0px 0px 10px rgba(255,255,255,0.2);
+box-shadow: inset 0px 0px 0px 10px rgba(255,255,255,0.2);
+-webkit-border-radius: 50%;
+-moz-border-radius: 50%;
+border-radius: 50%;
+}
 /*END GALLERY SECTION CSS*/
 
 /*EVENTS SECTION*/
