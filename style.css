@@ -8,7 +8,8 @@ Version:        0.0.1
 /*LAYOUT CSS*/
 .section .content
 {
-	max-width:1278px; padding-bottom: 0px !important;
+	max-width:1278px !important;
+	padding-bottom: 0px !important;
 }
 .section.odd .section-title, .section.odd .section-title
 {
@@ -314,6 +315,7 @@ body, h1, h2, h3, h4
 /*TOUR SECTION*/
 #tour
 {
+	padding-top: 10px !important;
 	background:#86b8c8;
 }
 #tour .content.clearfix
