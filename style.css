@@ -239,6 +239,12 @@ body, h1, h2, h3, h4
 		border-right: 20px solid transparent;
 		border-bottom: 25px solid white;
 	}
+	
+	.upArrow:hover {
+border-left: 20px solid transparent;
+border-right: 20px solid transparent;
+border-bottom: 25px solid #534741;
+}
 
 /*MENU SECTION END*/
 
