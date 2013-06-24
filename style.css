@@ -244,6 +244,7 @@ body, h1, h2, h3, h4
 border-left: 20px solid transparent;
 border-right: 20px solid transparent;
 border-bottom: 25px solid #534741;
+cursor:pointer;
 }
 
 /*MENU SECTION END*/
