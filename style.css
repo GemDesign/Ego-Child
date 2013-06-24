@@ -259,10 +259,6 @@ cursor:pointer;
 	height: auto;
 	color:white;
 }
-#ajax-content-outer
-{
-height:auto;
-}
 .content.clearfix
 {
 	position: absolute;
@@ -286,8 +282,9 @@ height:auto;
 	margin:auto;
 }
 .flexslider
-{
-	height:auto;
+{	
+	width: auto !important;
+	height:auto !important;
 	border: 1px solid white;
 	margin: auto !important;
 }
@@ -297,7 +294,7 @@ height:auto;
 #ajax-content-outer 
 {
 	margin-bottom: 30px;
-	height:auto;
+	height:auto !important;
 }
 #folio-navigation
 {
