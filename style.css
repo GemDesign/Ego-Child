@@ -8,7 +8,7 @@ Version:        0.0.1
 /*LAYOUT CSS*/
 .section .content
 {
-	max-width:1278px !important;
+	max-width:1278px;
 	padding-bottom: 0px !important;
 }
 .section.odd .section-title, .section.odd .section-title
