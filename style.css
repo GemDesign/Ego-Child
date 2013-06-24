@@ -17,7 +17,7 @@ Version:        0.0.1
 	border-bottom: 0px solid #ddd !important;
 }
 .section .section-title h2 {
-font-size: 30px !important;
+font-size: 50px !important;
 line-height: 51px;
 }
 .clear
@@ -200,6 +200,7 @@ body, h1, h2, h3, h4
 	#MenuContent del
 	{
 		font-size: 18px !important;
+		line-height:19px;
 		letter-spacing: 2px;
 		text-decoration: none;
 		font-weight: bold !important;
@@ -208,6 +209,7 @@ body, h1, h2, h3, h4
 	#MenuContent strong
 	{
 		font-size: 28px !important;
+		line-height:35px;
 		letter-spacing: 4px;
 		text-decoration: none;
 		font-weight: bold !important;
