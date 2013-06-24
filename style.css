@@ -1,4 +1,3 @@
-/*testing the ftp connection with GIT to see if it works*/
 /*
 Theme Name:     Ego Child
 Description:    Child theme for the Ego theme
@@ -7,192 +6,96 @@ Template:       ego
 Version:        0.0.1
 */
 /*LAYOUT CSS*/
-.section .content{max-width:1278px !important; padding-bottom: 0px !important;}/*Width of mockups?*/
-
-/*Font*/
+.section .content
+{
+	max-width:1278px !important; padding-bottom: 0px !important;
+}
+.section.odd .section-title, .section.odd .section-title
+{
+	border-bottom: 0px solid #ddd !important;
+}
+/*FONT*/
 @font-face
 {
-font-family: Pacifico;
-src: url('Fonts/Pacifico.ttf')
+	font-family: Pacifico;
+	src: url('Fonts/Pacifico.ttf')
 }
 @font-face
 {
-font-family: Gothic;
-src: url('Fonts/TRCenturyGothic.ttf')
-}
-.teaser
-{
-font-family: Pacifico, arial, helvetica, sans-serif;
-font-size:40px;
-line-height: 60px;
+	font-family: Gothic;
+	src: url('Fonts/TRCenturyGothic.ttf')
 }
 body, h1, h2, h3, h4
-{font-family:Gothic !important;}
-.section-title h2{
-padding-top:20px;
-font-size: 45px;
-line-height: 45px;
+{
+	font-family:Gothic !important;
 }
+/*END FONT*/
+
+/*TEASER SECTIONS*/
+.teaser
+{
+	font-family: Pacifico, arial, helvetica, sans-serif;
+	font-size:40px;
+	line-height: 60px;
+}
+/*END TEASER SECTIONS*/
+
 /*HEADER SECTION CSS*/
-.header.header-main {
-   display: block !important;
-   opacity: 1 !important;
+.header.header-main
+{
+	display: block !important;
+	opacity: 1 !important;
 }
 .nav-button
 {
-background-color:#86b8c8 !important;
+	background-color:#86b8c8 !important;
 }
-.header{
+.header
+{
 	position:fixed !important;
-top:20px;
-}
-/*Menu Start */
-#MenuImages
-{
-width: 100%;
-height:auto;
-background:transparent;
-text-align: center;
-}
-.MenuImage
-{
-margin: 40px;
-margin-left: 4.0%;
-margin-top: 1%;
-width: 250px;
-height: 250px;
-display: inline-block;
-cursor: pointer;
-border: 5px solid rgba(0,0,0,0.3);
--webkit-box-shadow: inset 0px 0px 0px 10px rgba(255,255,255,0.2);
--moz-box-shadow: inset 0px 0px 0px 10px rgba(255,255,255,0.2);
-box-shadow: inset 0px 0px 0px 10px rgba(255,255,255,0.2);
--webkit-border-radius: 50%;
--moz-border-radius: 50%;
-border-radius: 50%;
-}
-.MenuImage:hover
-{
-opacity:.5;
-}
-#MenuContent
-{
-background:white;
-color:#86b8c8 !important;
-height:auto;
-width:90%;
-margin-top: 25px;
-padding-left: 5%;
-padding-right: 5%;
-text-align: center;
-display:none;
-}
-#Lunch, #Evening, #Party, #Specials, #Christmas, #BBQ
-{
-display:none;
-}
-#MenuContent .MenuTitle
-{
-text-align:center;
-font-size:40px;
-position:relative;
-top:25px;
-letter-spacing: 4px;
-text-transform:uppercase;
-}
-.SectionTitle{
-font-size: 25px;
-text-decoration: underline;
-text-transform:uppercase;
-}
-.item{
-text-align:center;
-}
- del{
-font-size: 18px !important;
-letter-spacing: 2px;
-text-decoration: none;
-font-weight: bold !important;
-text-transform:uppercase;
-}
-#MenuContent strong
-{
-font-size: 28px !important;
-letter-spacing: 4px;
-text-decoration: none;
-font-weight: bold !important;
-border-bottom: 4px double #86b8c8 !important;
-border-top: 4px double #86b8c8 !important;
-text-transform:uppercase;
-}
-#MenuContent .column_one_half
-{
-border-right: 1px dashed #86b8c8 !important;
-border-left: 1px dashed #86b8c8 !important;
-width: 45%;
-margin-right:0px;
-margin-left: 3%;
-margin-top: 50px;
-padding-top: 20px;
-}
-.upArrow {
-position: relative;
-top: -25px;
-margin: auto;
-width: 0;
-height: 0;
-border-left: 20px solid transparent;
-border-right: 20px solid transparent;
-border-bottom: 25px solid white;
+	top:20px;
 }
 
-/*Menu End*/
-.header .inner .menu ul li.current_page_item a, .header .inner .menu ul li.current-menu-item a {
--webkit-border-radius: 0px;
--moz-border-radius: 0px;
--o-border-radius: 0px;
-border-radius: 0px;
-padding: 5px 10px;
-background: #333;
-color: #EEEEEE;
-text-decoration: none;
+.header .inner .menu ul li.current_page_item a, .header .inner .menu ul li.current-menu-item a 
+{
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	-o-border-radius: 0px;
+	border-radius: 0px;
+	padding: 5px 10px;
+	background: #333;
+	color: #EEEEEE;
+	text-decoration: none;
 }
 
-.header .inner{
+.header .inner
+{
 	max-width:1278px !important;
 }
 
-.admin-bar .header{
+.admin-bar .header
+{
 	padding:20px;
 	/*top:849px !important;*/
 }
 
 /*END HEADER CSS*/
 
+
 /*HOME SECTION*/
-#downarrow{
+#downarrow
+{
 	position: relative;
 	bottom:500px;
 	margin: auto;
 	z-index: 10;
 	margin-left: -20px;
 	margin-left: 50%;
-
 }
 
-#home-2 .section-title h2{
-	color:white !important;
-}
-
-#home-2 {
+#home-2
+ {
 	background-color: #86b8c8;
-	color: white !important;
-}
-
-#welcome{
-	font-size: 85px;
-	line-height: 90px;
-	text-align: center;
 	color: white !important;
 }
 
@@ -207,9 +110,10 @@ text-decoration: none;
 
 /*END HOME SECTION*/
 
-/*MENU SECTION CSS*/
+/*MENU SECTION START (Menu Thumbnail syle at the bottom of file) */
 
-#menu-2{
+#menu-2
+{
 	background:#86b8c8;
 	background-position:center;
 	position:relative;
@@ -217,9 +121,6 @@ text-decoration: none;
 	height:auto;
 	color:white;
 	padding-bottom: 20px;
-}
-#menu-2 .section-title h2, #myTitle{
-	color:white;
 }
 #menu-2 .section{
 	padding-top:150px;
@@ -229,10 +130,109 @@ text-decoration: none;
 	text-align:center;
 }
 
-/*END MENU SECTION CSS*/
+#MenuImages
+{
+	width: 100%;
+	height:auto;
+	background:transparent;
+	text-align: center;
+}
+.MenuImage
+{
+	margin: 40px;
+	margin-left: 4%;
+	margin-top: 1%;
+	width: 250px;
+	height: 250px;
+	display: inline-block;
+	cursor: pointer;
+	border: 5px solid rgba(0,0,0,0.3);
+	
+	-webkit-box-shadow: inset 0px 0px 0px 10px rgba(255,255,255,0.2);
+	-moz-box-shadow: inset 0px 0px 0px 10px rgba(255,255,255,0.2);
+	box-shadow: inset 0px 0px 0px 10px rgba(255,255,255,0.2);
+	
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+}
+	.MenuImage:hover
+	{
+		opacity:.5;
+	}
+#MenuContent
+{
+	background:white;
+	color:#86b8c8 !important;
+	height:auto;
+	width:90%;
+	margin-top: 25px;
+	padding-left: 5%;
+	padding-right: 5%;
+	text-align: center;
+	display:none;
+}
+	#Lunch, #Evening, #Party, #Specials, #Christmas, #BBQ
+	{
+		display:none;
+	}
+	#MenuContent .MenuTitle
+	{
+		text-align:center;
+		font-size:40px;
+		position:relative;
+		top:25px;
+		letter-spacing: 4px;
+		text-transform:uppercase;
+	}
+
+	/*Menu styling method (strikeouts = dish title(Fish and Chips etc.), strong = section title (Salads, Burgers etc.)) */
+	#MenuContent del
+	{
+		font-size: 18px !important;
+		letter-spacing: 2px;
+		text-decoration: none;
+		font-weight: bold !important;
+		text-transform:uppercase;
+	}
+	#MenuContent strong
+	{
+		font-size: 28px !important;
+		letter-spacing: 4px;
+		text-decoration: none;
+		font-weight: bold !important;
+		border-bottom: 4px double #86b8c8 !important;
+		border-top: 4px double #86b8c8 !important;
+		text-transform:uppercase;
+	}
+	#MenuContent .column_one_half
+	{
+		border-right: 1px dashed #86b8c8 !important;
+		border-left: 1px dashed #86b8c8 !important;
+		width: 45%;
+		margin-right:0px;
+		margin-left: 3%;
+		margin-top: 50px;
+		padding-top: 20px;
+	}
+	/*Close an open Menu*/
+	.upArrow 
+	{
+		position: relative;
+		top: -25px;
+		margin: auto;
+		width: 0;
+		height: 0;
+		border-left: 20px solid transparent;
+		border-right: 20px solid transparent;
+		border-bottom: 25px solid white;
+	}
+
+/*MENU SECTION END*/
 
 /*START GALLERY SECTION CSS*/
-#gallery-2{
+#gallery-2
+{
 	background:#86b8c8;
 	background-position:center;
 	position:relative;
@@ -242,243 +242,223 @@ text-decoration: none;
 }
 .content.clearfix
 {
-position: absolute;
-height: auto;
-width: 100%;
+	position: absolute;
+	height: auto;
+	width: 100%;
 }
 #Gallery{
-color:white;
+	color:white;
 }
-.section.odd .section-title, .section.odd .section-title
+}
+#folio-grid 
 {
-border-bottom: 0px solid #ddd !important;
-}
-#gallery-2 .section-title h4{
-font-size:40px !important;
-}
- #gallery-2 .section-title h2, #gallery-2 .section-title h4{
-display: inline;
-color:white !important;
-}
-#folio-grid {
-max-width: 1200px !important;
-z-index: 1;
-padding: 0;
-overflow: hidden;
-margin: auto;
+	max-width: 1200px !important;
+	z-index: 1;
+	padding: 0;
+	overflow: hidden;
+	margin: auto;
 }
 .attachment-post-thumbnail.wp-post-image
 {
-margin:auto;
+	margin:auto;
 }
-.flexslider{
-margin: auto !important;
+.flexslider
+{
+	margin: auto !important;
 }
-#ajax-content-outer {
-margin-bottom: 30px;
+#ajax-content-outer 
+{
+	margin-bottom: 30px;
 }
-#folio-navigation{
-z-index:999;
-display:none;
+#folio-navigation
+{
+	z-index:999;
+	display:none;
 }
 #ajaxpage p{
-margin: 50px;
-Text-align: left;
+	margin: 50px;
+	text-align: left;
 }
 .folio-thumb-container {
-width:auto !important;
-padding:4% !important;
+	width:auto !important;
+	padding:4% !important;
 }
 #ajaxpage{
-float:none !important;
+	float:none !important;
 }
 .folio-thumb
 {
-width: 280px;
-height: 280px;
+	width: 280px;
+	height: 280px;
 }
 .folio-link, .lazy
 {
-width:100%;
-height:100%;
+	width:100%;
+	height:100%;
 }
-/*END GALLERY SECTION CSS*/
+/*END GALLERY SECTION */
 
 /*EVENTS SECTION*/
-#events-3, #events-3  h2{
+#events-3
+{
 	background-color: #86b8c8;
 	color:white !important;
-	
 }
 /*END EVENTS SECTION*/
 
 /*TOUR SECTION*/
-#tour{
+#tour
+{
 	background:#86b8c8;
 }
 #tour .content.clearfix
 {
-margin-bottom:50px;
-}
-#tour .section-title h2{
-color:white;
-padding-top:130px;
+	margin-bottom:50px;
 }
 #TourCover
 {
-position:absolute;
-width:100%;
-height:62%;
-background:#534741;
-text-align:center;
-opacity:.7;
+	position:absolute;
+	width:100%;
+	height:62%;
+	background:#534741;
+	text-align:center;
+	opacity:.7;
 }
 #TourCover #ClickMe
 {
-font-size: 16px;
-background: #86b8c8;
-cursor: pointer;
-color: white;
-border: 0px solid white;
-border-radius: 20px;
-padding: 10px;
-position: absolute;
-width: 250px;
-top: 10%;
-left: 0;
-right: 0;
-margin-left: auto;
-margin-right: auto;
+	font-size: 16px;
+	background: #86b8c8;
+	cursor: pointer;
+	color: white;
+	border: 0px solid white;
+	border-radius: 20px;
+	padding: 10px;
+	position: absolute;
+	width: 250px;
+	top: 10%;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
 }
 #TourFullscreen
 {
-position: absolute !important;
-border: 0px solid white !important;
-right: 20px;
-color: white;
-width: 110px;
-background: transparent !important;
-font-size: 14px !important;
-top: 0px !important;
-cursor: default !important;
+	position: absolute !important;
+	border: 0px solid white !important;
+	right: 20px;
+	color: white;
+	width: 110px;
+	background: transparent !important;
+	font-size: 14px !important;
+	top: 0px !important;
+	cursor: default !important;
 }
-div#tour.section.odd.desktop{
+div#tour.section.odd.desktop
+{
 	padding-top:0px !important;
 }
 
-div#tour p{
+div#tour p
+{
 	margin-bottom: 0px !important;
 }
 
-div#tour small{
+div#tour small
+{
 	display: none;
 }
 
 /*END TOUR SECTION*/
 
 /*CONTACT SECTION*/
- #contact-us-2 .section-title h2, #contact-us-2 .section-title h4{
-display: inline;
-color:white !important;
-}
-#ContactUsTitle
-{
-color:white;
-}
-#contact-us-2 .section-title {
-padding-bottom: 1px;
-margin-bottom: 0px;
-}
-#ContactUS-Social
-{
-float: left;
-height: 50%;
-top: 10%;
-left: 15%;
-margin-right: 10%;
-background: #86b8c8;
-}
 #contact-us-2 .column_two_thirds
 {
-background:#86b8c8;
-width:80%;
-padding:7%;
-margin-bottom:0px !important;
+	background:#86b8c8;
+	width:80%;
+	padding:7%;
+	margin-bottom:0px !important;
 }
 #contact-us-2{
 	background-color: #86b8c8;
 	color:white !important;
 	
 }
-#ContactTitle{
-	color:white;
-	margin-bottom: 75px;
-	letter-spacing: 4px;
-}
-#fb {
-position:relative;
-left:10px;
-top:12px;
-}
-#contact-form{
-float: left;
-margin-bottom: 5px;
-margin-top: 20px;
-}
 
-#contact-us-2 h4{
-	color: white !important;
+#ContactUS-Social
+{
+	float: left;
+	height: 50%;
+	top: 10%;
+	left: 15%;
+	margin-right: 10%;
+	background: #86b8c8;
 }
+	#ContactTitle
+	{
+		color:white;
+		margin-bottom: 75px;
+		letter-spacing: 4px;
+	}
+	#fb
+	{
+		position:relative;
+		left:10px;
+		top:12px;
+	}
+		#ContactTitle:hover + #facebookLike
+		{
+			display: block;
+			cursor: pointer;
+		}
+		#facebookLike
+		{
+			display: none;
+			position: absolute;
+			top:50px;
+			left: 50px;
+			background-color: white;
+			box-shadow: 1px 1px 5px black;
+		}
+			#facebookLike:hover
+			{
+				display: block;
+			}
 
-#contactMessage{
-	float:left;
+#contact-form
+{
+	float: left;
+	margin-bottom: 5px;
+	margin-top: 20px;
 }
+	#submitform
+	{
+		float:left;
+		clear:both;
+		border-radius:0px;
+		width:110px;
+	}
+	#contact-us-2 .errorMsg
+	{
+		color:white !important;
+	}
+	#contactMessage
+	{
+		float:left;
+	}
 
-#submitform{
-	float:left;
-	clear:both;
-	border-radius:0px;
-	width:110px;
-}
-
-#ContactTitle:hover + #facebookLike{
-	display: block;
-	cursor: pointer;
-}
-
-#facebookLike{
-	display: none;
-	position: absolute;
-	top:50px;
-	left: 50px;
-	background-color: white;
-	box-shadow: 1px 1px 5px black;
-}
-
-#facebookLike:hover{
-	display: block;
-}
-#contact-us-2 .errorMsg {
-color:white !important;
-}
 /*END CONTACT SECTION*/
 
-/*Start Footer SECTION*/
+
+/*Start FOOTER SECTION*/
 #footer
 {
-height:75px !important;
-margin-top: 250px;
+	height:75px !important;
+	margin-top: 250px;
 }
-/*END Footer SECTION*/
-
-.clear
-{
-height:0px !important;
-}
-
-/*thumb-structure*/
+/*END FOOTER SECTION*/
 
 
+/*THUMB STRUCTURE*/
 #menu-grid{max-width: 1200px !important;
 z-index: 1;
 padding: 0;
@@ -526,7 +506,7 @@ margin: auto;}
 	position:relative;
 	margin:0 0 18px 0;
 	float:left;
-	padding-left:4%; 
+	padding:4%; 
 	overflow:hidden; 
 	z-index:1; }
 
