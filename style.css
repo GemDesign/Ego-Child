@@ -16,6 +16,10 @@ Version:        0.0.1
 	margin-top:20px;
 	border-bottom: 0px solid #ddd !important;
 }
+.section .section-title h2 {
+font-size: 30px !important;
+line-height: 51px;
+}
 .clear
 {
 	height:0px !important;
