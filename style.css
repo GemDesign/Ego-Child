@@ -259,9 +259,9 @@ cursor:pointer;
 	height: auto;
 	color:white;
 }
-.flexslider .slides img
+#ajax-content-outer
 {
-width: 100%;
+height:auto;
 }
 .content.clearfix
 {
@@ -287,11 +287,17 @@ width: 100%;
 }
 .flexslider
 {
+	height:auto;
+	border: 1px solid white;
 	margin: auto !important;
 }
+	.flexslider .slides img
+	{
+	}
 #ajax-content-outer 
 {
 	margin-bottom: 30px;
+	height:auto;
 }
 #folio-navigation
 {
@@ -308,6 +314,8 @@ width: 100%;
 }
 #ajaxpage{
 	float:none !important;
+	width: auto;
+	height: auto;
 }
 .folio-thumb
 {
