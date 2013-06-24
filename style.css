@@ -358,10 +358,8 @@ background:#534741;
 text-align:center;
 opacity:.7;
 }
-#TourCover p
+#TourCover #ClickMe
 {
-position: absolute;
-top: 20%;
 font-size: 20px;
 background: #86b8c8;
 cursor: pointer;
@@ -370,6 +368,13 @@ border: 0px solid white;
 border-radius: 20px;
 padding: 10px;
 margin-left: 35%;
+position: absolute;
+width: 350px;
+top: 10%;
+left: 0;
+right: 0;
+margin-left: auto;
+margin-right: auto;
 }
 #TourFullscreen
 {
@@ -414,10 +419,10 @@ margin-bottom: 0px;
 {
 float: left;
 height: 50%;
-width:30%;
-top:10%;
-left:15%;
-background:#86b8c8;
+top: 10%;
+left: 15%;
+margin-right: 10%;
+background: #86b8c8;
 }
 #contact-us-2 .column_two_thirds
 {
@@ -442,8 +447,9 @@ left:10px;
 top:12px;
 }
 #contact-form{
-top:25%;
-float:right;
+float: left;
+margin-bottom: 5px;
+margin-top: 20px;
 }
 
 #contact-us-2 h4{
