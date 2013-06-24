@@ -550,6 +550,6 @@ height: 100%;
 	top:10%;
 	right:5%;
 	font-family:sans-serif;
-		pointer:cursor;
+		cursor:pointer;
 	z-index:600;
 }
