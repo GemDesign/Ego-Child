@@ -288,6 +288,8 @@ cursor:pointer;
 	border: 1px solid white;
 	margin: auto !important;
 	display: inline-block;
+	border: 2px solid white !important;
+	border-bottom: 0px solid white;
 }
 	.flexslider .slides img
 	{
