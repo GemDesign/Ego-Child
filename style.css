@@ -360,7 +360,7 @@ opacity:.7;
 }
 #TourCover #ClickMe
 {
-font-size: 20px;
+font-size: 16px;
 background: #86b8c8;
 cursor: pointer;
 color: white;
@@ -483,7 +483,7 @@ margin-top: 20px;
 #facebookLike:hover{
 	display: block;
 }
-.errorMsg {
+#msg .errorMsg {
 color:white !important;
 }
 /*END CONTACT SECTION*/
