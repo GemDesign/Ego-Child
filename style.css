@@ -12,7 +12,12 @@ Version:        0.0.1
 }
 .section.odd .section-title, .section.odd .section-title
 {
+	margin-top:20px;
 	border-bottom: 0px solid #ddd !important;
+}
+.clear
+{
+	height:0px !important;
 }
 /*FONT*/
 @font-face
