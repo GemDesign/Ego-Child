@@ -8,7 +8,7 @@ Version:        0.0.1
 /*LAYOUT CSS*/
 .section .content
 {
-	max-width:1278px !important; padding-bottom: 0px !important;
+	max-width:1278px; padding-bottom: 0px !important;
 }
 .section.odd .section-title, .section.odd .section-title
 {
@@ -527,3 +527,29 @@ width: 280px;
 		
 /*even*/
 .section.even #menu-grid .menu-thumb-container .menu-thumb{border:5px solid #666;/*ie8 fallback*/ border:5px solid rgba(153,153,153,0.3);-webkit-box-shadow:inset 0px 0px 0px 10px rgba(0,0,0,0.2);-moz-box-shadow:inset 0px 0px 0px 10px rgba(0,0,0,0.2);box-shadow:inset 0px 0px 0px 10px rgba(0,0,0,0.2);}	
+
+.googleMaps  {
+position: relative;
+padding-bottom: 65.25%;
+padding-top: 30px;
+height: 0;
+overflow: hidden;
+}
+.googleMaps iframe {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+
+#closeMaps{
+	font-size:50px;
+	color:white;
+	position:absolute;
+	top:10%;
+	right:5%;
+	font-family:sans-serif;
+		pointer:cursor;
+	z-index:600;
+}
