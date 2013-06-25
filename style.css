@@ -6,6 +6,10 @@ Template:       ego
 Version:        0.0.1
 */
 /*LAYOUT CSS*/
+.section
+{
+	padding-top: 40px !important;
+}
 .section .content
 {
 	max-width:1278px !important;
@@ -391,7 +395,12 @@ div#tour small
 {
 	display: none;
 }
-
+.thumb
+{
+float: none !important;
+margin: auto;
+width: 50% !important;
+}
 /*END TOUR SECTION*/
 
 /*CONTACT SECTION*/
