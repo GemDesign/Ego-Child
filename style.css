@@ -290,7 +290,6 @@ cursor:pointer;
 	display: inline-block;
 	border: 2px solid white !important;
 	border-bottom: 0px solid white;
-	max-width: 900px;
 }
 	.flexslider .slides img
 	{
