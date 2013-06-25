@@ -15,6 +15,8 @@ Version:        0.0.1
 {
 	margin-top:20px;
 	border-bottom: 0px solid #ddd !important;
+	padding-bottom: 20px;
+	margin-bottom: 0px;
 }
 .section .section-title h2 {
 font-size: 50px !important;
@@ -312,6 +314,7 @@ cursor:pointer;
 .folio-thumb-container {
 	width:auto !important;
 	padding:4% !important;
+	padding-bottom:0% !important;
 }
 #ajaxpage{
 	float:none !important;
@@ -539,7 +542,8 @@ margin: auto;}
 	position:relative;
 	margin:0 0 18px 0;
 	float:left;
-	padding:4%; 
+	padding:4%;
+	padding-bottom:0% !important;
 	overflow:hidden; 
 	z-index:1; }
 
