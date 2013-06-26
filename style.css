@@ -192,6 +192,13 @@ body, h1, h2, h3, h4
 		top:25px;
 		letter-spacing: 4px;
 		text-transform:uppercase;
+		background-color: #86b8c8;
+		height:4em;
+		color: white;
+		width: 100%;
+		display: block;
+		line-height: 6em;
+		margin-bottom: 50px;
 	}
 
 	/*Menu styling method (strikeouts = dish title(Fish and Chips etc.), strong = section title (Salads, Burgers etc.)) */
