@@ -609,3 +609,14 @@ background: #86b8c8;
 height: 40px;
 border: 1px solid white;
 }
+
+/*IE fix for border radius*/
+.menu-thumb, .menu-thumb a, .menu-thumb a img, .menu-thumb a .menu-thumb-rollover{
+-webkit-border-radius: 50%;
+-moz-border-radius: 50%;
+border-radius: 50%;
+max-height: 280px;
+overflow: hidden;
+
+behavior: url(http://bunnyconnellan.ie/wp/wp-content/themes/ego-child/PIE-1.0.0/PIE.htc);
+}
