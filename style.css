@@ -598,10 +598,11 @@ height: 100%;
 }
 /* GALLERY NAV ToolTips */
 
-#nextAppend{
+.nextAppend{
 position: absolute;
 left: 40px;
 top: 0px;
+text-indent: 0;
 width: 300px;
 color: white;
 background: #86b8c8;
