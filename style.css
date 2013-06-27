@@ -299,21 +299,21 @@ cursor:pointer;
 	display: inline-block;
 	border: 2px solid white !important;
 	border-bottom: 0px solid white;
-	overflow: visible;
+	overflow: visible !important;
 }
 	.flex-direction-nav li .next
 	{
 		position: absolute;
 		border: 2px solid white;
-		left: 100%;
+		left: 100% !important;
 		top: 50%;
 	}
 	.flex-direction-nav li .prev
 	{
 		position: absolute;
 		border: 2px solid white;
-		left: -4.7%;
-		top: 50%;background:rgba(134,184,200,0.8) url(http://bunnyconnellan.ie/wp/wp-content/themes/ego/images/ui_flex/bg_direction_nav.png) 0 0 no-repeat !important;
+		left: -4.7% !important;
+		top: 50%;
 	}
 #ajax-content-outer 
 {
@@ -633,6 +633,4 @@ border: 1px solid white;
 border-radius: 50%;
 max-height: 280px;
 overflow: hidden;
-
-behavior: url(http://bunnyconnellan.ie/wp/wp-content/themes/ego-child/PIE-1.0.0/PIE.htc);
 }
