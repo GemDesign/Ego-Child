@@ -255,6 +255,10 @@ cursor:pointer;
 /*MENU SECTION END*/
 
 /*START GALLERY SECTION CSS*/
+.flex-control-nav{
+	display:none;
+}
+
 #gallery-2
 {
 	background:#86b8c8;
