@@ -307,6 +307,7 @@ cursor:pointer;
 		border: 2px solid white;
 		left: 100% !important;
 		top: 50%;
+		display:none;
 	}
 	.flex-direction-nav li .prev
 	{
@@ -314,6 +315,7 @@ cursor:pointer;
 		border: 2px solid white;
 		left: -4.7% !important;
 		top: 50%;
+		display:none;
 	}
 #ajax-content-outer 
 {
