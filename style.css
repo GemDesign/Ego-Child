@@ -636,16 +636,17 @@ border-radius: 50%;
 max-height: 280px;
 overflow: hidden;
 }
-
-behavior: url(http://bunnyconnellan.ie/wp/wp-content/themes/ego-child/PIE-1.0.0/PIE.htc/);
-
-@media only screen and (max-device-width: 480px)
+@media screen and (max-width: 480px)
 	{
-		#folio-navigation
+		.preProject
 		{
 		display:none;
 		}
-		.thumbInfo
+		.nextProject
+		{
+		display:none;
+		}
+		.folio-thumb-rollover
 		{
 		opacity:1;
 		}
@@ -653,4 +654,6 @@ behavior: url(http://bunnyconnellan.ie/wp/wp-content/themes/ego-child/PIE-1.0.0/
 		{
 		bottom: 300px;
 		}
-	}
+}
+behavior: url(http://bunnyconnellan.ie/wp/wp-content/themes/ego-child/PIE-1.0.0/PIE.htc/);
+
