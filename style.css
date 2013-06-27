@@ -183,6 +183,7 @@ body, h1, h2, h3, h4
 	#Lunch, #Evening, #Party, #Specials, #Christmas, #BBQ
 	{
 		display:none;
+		overflow:hidden;
 	}
 	#MenuContent .MenuTitle
 	{
@@ -637,3 +638,19 @@ overflow: hidden;
 }
 
 behavior: url(http://bunnyconnellan.ie/wp/wp-content/themes/ego-child/PIE-1.0.0/PIE.htc/);
+
+@media only screen and (max-device-width: 480px)
+	{
+		#folio-navigation
+		{
+		display:none;
+		}
+		.thumbInfo
+		{
+		opacity:1;
+		}
+		#downarrow
+		{
+		bottom: 300px;
+		}
+	}
