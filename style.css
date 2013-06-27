@@ -296,8 +296,9 @@ cursor:pointer;
 	border: 2px solid white !important;
 	border-bottom: 0px solid white;
 }
-	.flexslider .slides img
+	.flex-direction-nav li .next
 	{
+	background: rgba(134,184,200,0.8) url(../images/ui_flex/bg_direction_nav.png) 0 -40px no-repeat !important;
 	}
 #ajax-content-outer 
 {
