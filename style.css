@@ -639,6 +639,11 @@ color: white;
 background: #86b8c8;
 height: 20px;
 border: 1px solid white;
+z-index:999;
+}
+#swipe
+{
+font-size:12px;
 }
 
 /*IE fix for border radius*/
