@@ -627,19 +627,23 @@ background: #86b8c8;
 height: 40px;
 border: 1px solid white;
 }
-.titleAppend
+.titleAppend, .folioAppend
 {
+text-align: center;
 position: absolute;
-left: 10%;
-top: 20px;
+top: 45%;
+left: 0px;
+color: white;
 padding: 2px;
 text-indent: 0;
-width: auto;
-color: white;
+width: 100%;
 background: #86b8c8;
 height: 20px;
-border: 1px solid white;
-z-index:999;
+z-index: -1;
+}
+.folioAppend
+{
+top:40%;
 }
 #swipe
 {
@@ -693,9 +697,7 @@ behavior: url(http://bunnyconnellan.ie/wp/wp-content/themes/ego-child/PIE-1.0.0/
 }
 /*BLOG STYLE*/
 .section.odd {
-background: #86b8c8;
-}
-.section.odd {
-color: white;
+background: #86b8c8 !important;
+color: white !important;
 }
 
