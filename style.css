@@ -638,11 +638,15 @@ overflow: hidden;
 }
 @media screen and (max-width: 480px)
 	{
-		.preProject
+		#folio-navigation
 		{
 		display:none;
 		}
-		.nextProject
+		.preProject a
+		{
+		display:none;
+		}
+		.nextProject a
 		{
 		display:none;
 		}
@@ -656,11 +660,16 @@ overflow: hidden;
 		}
 		.menu-thumb, .menu-thumb a, .menu-thumb a img,.menu-thumb a .menu-thumb-rollover
 		{
-		max-height:180px;
+		max-height:120px;
 		}
 		.menu-thumb
 		{
-		width: 180px;
+		width: 120px;
+		}
+		.folio-thumb
+		{
+			width: 120px;
+			height: 120px;
 		}
 }
 behavior: url(http://bunnyconnellan.ie/wp/wp-content/themes/ego-child/PIE-1.0.0/PIE.htc/);
