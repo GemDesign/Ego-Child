@@ -654,6 +654,14 @@ overflow: hidden;
 		{
 		bottom: 300px;
 		}
+		.menu-thumb, .menu-thumb a, .menu-thumb a img,.menu-thumb a .menu-thumb-rollover
+		{
+		max-height:180px;
+		}
+		.menu-thumb
+		{
+		width: 180px;
+		}
 }
 behavior: url(http://bunnyconnellan.ie/wp/wp-content/themes/ego-child/PIE-1.0.0/PIE.htc/);
 
