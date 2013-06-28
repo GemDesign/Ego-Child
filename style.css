@@ -653,6 +653,7 @@ font-size:12px;
 border-radius: 50%;
 max-height: 280px;
 overflow: hidden;
+behavior: url(http://bunnyconnellan.ie/wp/wp-content/themes/ego-child/PIE-1.0.0/PIE.htc/);
 }
 @media screen and (max-width: 480px)
 	{
@@ -690,5 +691,5 @@ overflow: hidden;
 			height: 120px;
 		}
 }
-behavior: url(http://bunnyconnellan.ie/wp/wp-content/themes/ego-child/PIE-1.0.0/PIE.htc/);
+
 
