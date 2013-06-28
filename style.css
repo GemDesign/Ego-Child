@@ -627,6 +627,19 @@ background: #86b8c8;
 height: 40px;
 border: 1px solid white;
 }
+.titleAppend
+{
+position: absolute;
+left: 10%;
+top: 20px;
+padding: 2px;
+text-indent: 0;
+width: auto;
+color: white;
+background: #86b8c8;
+height: 20px;
+border: 1px solid white;
+}
 
 /*IE fix for border radius*/
 .menu-thumb, .menu-thumb a, .menu-thumb a img, .menu-thumb a .menu-thumb-rollover{
