@@ -691,5 +691,11 @@ behavior: url(http://bunnyconnellan.ie/wp/wp-content/themes/ego-child/PIE-1.0.0/
 			height: 120px;
 		}
 }
-
+/*BLOG STYLE*/
+.section.odd {
+background: #86b8c8;
+}
+.section.odd {
+color: white;
+}
 
