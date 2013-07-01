@@ -180,7 +180,7 @@ body, h1, h2, h3, h4
 	text-align: center;
 	display:none;
 }
-	#Lunch, #Evening, #Party, #Specials, #Christmas, #BBQ
+	#Lunch, #Kids, #EarlyEveing, #Evening, #Wine, #Cocktail, #FingerFood, #Specials
 	{
 		display:none;
 		overflow:hidden;
@@ -525,7 +525,7 @@ margin: auto;}
 	-webkit-border-radius: 50%;
 	 -moz-border-radius: 50%;
 	  border-radius:50%;
-	  max-height:280px;
+	  max-height:190px;
 	  overflow:hidden;}
 
 .menu-thumb a img{
@@ -569,7 +569,7 @@ margin: auto;}
 
 .menu-thumb{
 position:relative;
-width: 280px;
+width: 190px;
 }
 
 .menu-thumb.active{border:5px solid rgba(255,39,120,0.9);-webkit-box-shadow:inset 0px 0px 0px 10px rgba(255,39,120,0.9)!important;-moz-box-shadow:inset 0px 0px 0px 10px rgba(255,39,120,0.9)!important;box-shadow:inset 0px 0px 0px 10px rgba(255,39,120,0.9) !important;}
