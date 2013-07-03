@@ -333,7 +333,7 @@ cursor:pointer;
 }
 .folio-thumb-container {
 	width:auto !important;
-	padding:1.5% !important;
+	padding:4% !important;
 	padding-bottom:0% !important;
 }
 #ajaxpage{
@@ -562,7 +562,7 @@ margin: auto;}
 	position:relative;
 	margin:0 0 18px 0;
 	float:left;
-	padding:4%;
+	padding:1.5%;
 	padding-bottom:0% !important;
 	overflow:hidden; 
 	z-index:1; }
