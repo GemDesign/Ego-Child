@@ -180,7 +180,7 @@ body, h1, h2, h3, h4
 	text-align: center;
 	display:none;
 }
-	#Lunch, #Kids, #EarlyEveing, #Evening, #Wine, #Cocktail, #FingerFood, #Specials
+	#Lunch, #Kids, #EarlyEveing, #Evening, #Wine, #Cocktail, #FingerFood, #Specials, #BBQ, #SetMenus
 	{
 		display:none;
 		overflow:hidden;
