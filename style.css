@@ -32,11 +32,11 @@ line-height: 51px !important;
 /*FONT*/
 @font-face {
     font-family: Pacifico;
-    src: url('pacifico-webfont.eot');
-    src: url('pacifico-webfont.eot?#iefix') format('embedded-opentype'),
-         url('pacifico-webfont.woff') format('woff'),
-         url('pacifico-webfont.ttf') format('truetype'),
-         url('pacifico-webfont.svg#pacificoregular') format('svg');
+    src: url('Fonts/pacifico-webfont.eot');
+    src: url('Fonts/pacifico-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Fonts/pacifico-webfont.woff') format('woff'),
+         url('Fonts/pacifico-webfont.ttf') format('truetype'),
+         url('Fonts/pacifico-webfont.svg#pacificoregular') format('svg');
     font-weight: normal;
     font-style: normal;
 
