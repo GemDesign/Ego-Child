@@ -44,7 +44,12 @@ line-height: 51px !important;
 @font-face
 {
 	font-family: Gothic;
-	src: url('Fonts/TRCenturyGothic.ttf')
+    src: url('Fonts/gothic.eot');
+    src: url('Fonts/gothic.eot?#iefix') format('embedded-opentype'),
+         url('Fonts/gothic.woff') format('woff'),
+         url('Fonts/TRCenturyGothic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 body, h1, h2, h3, h4
 {
