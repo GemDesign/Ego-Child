@@ -700,12 +700,16 @@ behavior: url(http://bunnyconnellan.ie/wp/wp-content/themes/ego-child/PIE-1.0.0/
 			width: 120px;
 			height: 120px;
 		}
-		#facebookLike iframe
+		#facebookLike
 		{
 		width: 300px;
 		height: 400px;
 		overflow: auto;
-		left: 0px;
+		left: 20px;
+		}
+		#facebookLike iframe
+		{
+		width: 275px !important;
 		}
 }
 /*BLOG STYLE*/
