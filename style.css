@@ -655,6 +655,12 @@ top:40%;
 {
 font-size:12px;
 }
+.TA_certificateOfExcellence
+{
+position: absolute;
+left: 73%;
+top: 100px;
+}
 
 /*IE fix for border radius*/
 .menu-thumb, .menu-thumb a, .menu-thumb a img, .menu-thumb a .menu-thumb-rollover{
@@ -710,6 +716,10 @@ behavior: url(http://bunnyconnellan.ie/wp/wp-content/themes/ego-child/PIE-1.0.0/
 		#facebookLike iframe
 		{
 		width: 275px !important;
+		}
+		.TA_certificateOfExcellence
+		{
+		position: relative;
 		}
 }
 /*BLOG STYLE*/
