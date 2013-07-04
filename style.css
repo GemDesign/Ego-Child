@@ -671,6 +671,15 @@ max-height: 280px;
 overflow: hidden;
 behavior: url(http://bunnyconnellan.ie/wp/wp-content/themes/ego-child/PIE-1.0.0/PIE.htc/);
 }
+@media screen and (max-width: 1250px)
+	{
+		.TA_certificateOfExcellence
+		{
+		position: relative;
+		left: 0%;
+		top: 0px;
+		}
+	}
 @media screen and (max-width: 480px)
 	{
 		#folio-navigation
@@ -720,6 +729,8 @@ behavior: url(http://bunnyconnellan.ie/wp/wp-content/themes/ego-child/PIE-1.0.0/
 		.TA_certificateOfExcellence
 		{
 		position: relative;
+		left: 0%;
+		top: 0px;
 		}
 }
 /*BLOG STYLE*/
