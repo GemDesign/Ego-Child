@@ -375,16 +375,10 @@ cursor:pointer;
 
 .section.odd #folio-grid .folio-thumb-container .folio-thumb{
 	border: 5px solid white !important;
-	-webkit-box-shadow: inset 0px 0px 0px 10px white !important;
--moz-box-shadow: inset 0px 0px 0px 10px white !important;
-box-shadow: inset 0px 0px 0px 10px white !important;
 }
 
 .section.even #folio-grid .folio-thumb-container .folio-thumb{
 	border: 5px solid white !important;
-	-webkit-box-shadow: inset 0px 0px 0px 10px white !important;
--moz-box-shadow: inset 0px 0px 0px 10px white !important;
-box-shadow: inset 0px 0px 0px 10px white !important;
 }
 
 
