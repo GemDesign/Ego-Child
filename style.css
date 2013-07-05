@@ -36,10 +36,12 @@ line-height: 51px !important;
 	#vertical
 	{
 	display:inline;
+	color: white !important;
 	}
 	#horiz
 	{
 	display:none;
+	color: white !important;
 	}
 /*FONT*/
 @font-face {
@@ -472,7 +474,6 @@ width: 50% !important;
 }
 #contact-us-2{
 	background-color: #86b8c8;
-	color:white !important;
 	
 }
 
@@ -487,8 +488,6 @@ width: 50% !important;
 }
 	#ContactTitle
 	{
-
-		color: white;
 		font-size: 25px;
 		text-align: center;
 		line-height: 25px;
