@@ -33,14 +33,6 @@ line-height: 51px !important;
 {
 	height:200px;
 }
-#vertical
-{
-display:inline;
-}
-#horiz
-{
-display:none;
-}
 /*FONT*/
 @font-face {
     font-family: Pacifico;
@@ -380,6 +372,17 @@ cursor:pointer;
 	width:100%;
 	height:100%;
 }
+
+.section.odd #folio-grid .folio-thumb-container .folio-thumb{
+	border: 5px solid white;
+}
+
+.section.even #folio-grid .folio-thumb-container .folio-thumb{
+	border: 5px solid white;
+}
+
+
+
 /*END GALLERY SECTION */
 
 /*EVENTS SECTION*/
@@ -494,14 +497,6 @@ width: 50% !important;
 		border-bottom-right-radius: 10px;
 		border-top-right-radius: 10px;
 		background: #534741;
-	}
-	#vertical
-	{
-	display:none;
-	}
-	#horiz
-	{
-	display:inline;
 	}
 	#fb
 	{
@@ -718,12 +713,6 @@ top: 100px;
 	}
 @media screen and (max-width: 480px)
 	{
-		.teaser
-		{
-			font-family: Pacifico, arial, helvetica, sans-serif;
-			font-size:40px;
-			line-height: 45px;
-		}
 		#folio-navigation
 		{
 		display:none;
