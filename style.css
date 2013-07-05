@@ -613,11 +613,11 @@ width: 190px;
 .menu-thumb.last{margin-right:0;}
 
 /*odd*/
-.section.odd #menu-grid .menu-thumb-container .menu-thumb{border:5px solid #ccc;/*ie8 fallback*/ border:5px solid rgba(0,0,0,0.3);-webkit-box-shadow:inset 0px 0px 0px 10px rgba(255,255,255,0.2);-moz-box-shadow:inset 0px 0px 0px 10px rgba(255,255,255,0.2);box-shadow:inset 0px 0px 0px 10px rgba(255,255,255,0.2);}
+.section.odd #menu-grid .menu-thumb-container .menu-thumb{border:5px solid white;/*ie8 fallback*/ border:5px solid white;-webkit-box-shadow:inset 0px 0px 0px 10px rgba(255,255,255,0.2);-moz-box-shadow:inset 0px 0px 0px 10px rgba(255,255,255,0.2);box-shadow:inset 0px 0px 0px 10px rgba(255,255,255,0.2);}
 		
 		
 /*even*/
-.section.even #menu-grid .menu-thumb-container .menu-thumb{border:5px solid #666;/*ie8 fallback*/ border:5px solid rgba(153,153,153,0.3);-webkit-box-shadow:inset 0px 0px 0px 10px rgba(0,0,0,0.2);-moz-box-shadow:inset 0px 0px 0px 10px rgba(0,0,0,0.2);box-shadow:inset 0px 0px 0px 10px rgba(0,0,0,0.2);}	
+.section.even #menu-grid .menu-thumb-container .menu-thumb{border:5px solid white;/*ie8 fallback*/ border:5px solid white;-webkit-box-shadow:inset 0px 0px 0px 10px rgba(0,0,0,0.2);-moz-box-shadow:inset 0px 0px 0px 10px rgba(0,0,0,0.2);box-shadow:inset 0px 0px 0px 10px rgba(0,0,0,0.2);}	
 
 .googleMaps  {
 position: relative;
