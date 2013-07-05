@@ -714,6 +714,12 @@ top: 100px;
 	}
 @media screen and (max-width: 480px)
 	{
+		.teaser
+		{
+			font-family: Pacifico, arial, helvetica, sans-serif;
+			font-size:40px;
+			line-height: 45px;
+		}
 		#folio-navigation
 		{
 		display:none;
