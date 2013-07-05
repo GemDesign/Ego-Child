@@ -397,6 +397,9 @@ cursor:pointer;
 /*END GALLERY SECTION */
 
 /*EVENTS SECTION*/
+#widgetcontainer{
+	float:left;
+}
 #events-3
 {
 	background-color: #86b8c8;
