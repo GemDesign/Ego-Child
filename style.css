@@ -571,7 +571,7 @@ margin: auto;}
 	  max-height:190px;
 	  overflow:hidden;
 	  /*IE fix for border radius*/
-	  behavior: url('http://bunnyconnellan.ie/wp/wp-content/themes/ego-child/PIE-1.0.0/PIE.htc/');
+	  behavior: url(http://bunnyconnellan.ie/wp/wp-content/themes/ego-child/PIE-1.0.0/PIE.php);
 }
 
 .menu-thumb a img{
