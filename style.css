@@ -29,6 +29,10 @@ line-height: 51px !important;
 {
 	height:0px !important;
 }
+.teaser.fixed-desktop
+{
+	height:200px;
+}
 /*FONT*/
 @font-face {
     font-family: Pacifico;
@@ -475,14 +479,24 @@ width: 50% !important;
 }
 	#ContactTitle
 	{
-		color:white;
+		color: white;
 		margin-bottom: 75px;
 		letter-spacing: 4px;
+		color: white;
+		font-size: 25px;
+		text-align: center;
+		line-height: 25px;
+		margin-bottom: 75px;
+		letter-spacing: 0px;
+		position: fixed;
+		left: 0px;
+		top: 25%;
+		height: auto;
+		background: #534741;
 	}
 	#fb
 	{
 		position:relative;
-		left:10px;
 		top:12px;
 	}
 		#ContactTitle:hover + #facebookLike
@@ -493,8 +507,8 @@ width: 50% !important;
 		#facebookLike
 		{
 			display: none;
-			position: absolute;
-			top:50px;
+			position: fixed;
+			top: 20%;
 			left: 50px;
 			background-color: white;
 			box-shadow: 1px 1px 5px black;
@@ -745,6 +759,36 @@ top: 100px;
 		left: 0%;
 		top: 0px;
 		}
+			#ContactTitle
+	{
+		color: white;
+		margin-bottom: 75px;
+		letter-spacing: 4px;
+	}
+	#fb
+	{
+		position:relative;
+		left:10px;
+		top:12px;
+	}
+		#ContactTitle:hover + #facebookLike
+		{
+			display: block;
+			cursor: pointer;
+		}
+		#facebookLike
+		{
+			display: none;
+			position: absolute;
+			top:50px;
+			left: 50px;
+			background-color: white;
+			box-shadow: 1px 1px 5px black;
+		}
+			#facebookLike:hover
+			{
+				display: block;
+			}
 }
 /*BLOG STYLE*/
 .section.odd {
