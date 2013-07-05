@@ -771,6 +771,14 @@ top: 100px;
 		position:relative;
 		background:transparent;
 	}
+	#vertical
+	{
+	display:none;
+	}
+	#horiz
+	{
+	display:inline;
+	}
 	#fb
 	{
 		position:relative;
