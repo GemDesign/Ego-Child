@@ -6,9 +6,17 @@ Template:       ego
 Version:        0.0.1
 */
 /*LAYOUT CSS*/
+#wrapper
+{
+	background-color: #86b8c8;
+}
 .section
 {
 	padding-top: 60px !important;
+}
+.section.odd
+{
+	padding-top: 100px !important;
 }
 .header
 {
