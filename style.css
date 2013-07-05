@@ -33,6 +33,14 @@ line-height: 51px !important;
 {
 	height:200px;
 }
+	#vertical
+	{
+	display:inline;
+	}
+	#horiz
+	{
+	display:none;
+	}
 /*FONT*/
 @font-face {
     font-family: Pacifico;
