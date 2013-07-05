@@ -279,14 +279,6 @@ cursor:pointer;
 	display:none;
 }
 
-.folio-thumb, .folio-thumb a, .folio-thumb a img,.folio-thumb a .folio-thumb-rollover{
-	-webkit-border-radius: 50%;
-	 -moz-border-radius: 50%;
-	  border-radius:50%;
-	  overflow:hidden;
-	 /*IE fix for border radius*/
-	  behavior: url('http://bunnyconnellan.ie/wp/wp-content/themes/ego-child/PIE-1.0.0/PIE.htc/');
-}
 
 #gallery-2
 {
