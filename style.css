@@ -118,6 +118,10 @@ body, h1, h2, h3, h4
 	color: white !important;
 }
 
+#home-2 h2{
+	padding-top:50px;
+}
+
 .epic-logo{
 	top:20% !important;
 	left: 90% !important;
