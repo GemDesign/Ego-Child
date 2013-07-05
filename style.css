@@ -127,7 +127,6 @@ body, h1, h2, h3, h4
 #home-2
  {
 	background-color: #86b8c8;
-	color: white !important;
 }
 
 #home-2 h2{
@@ -154,7 +153,6 @@ body, h1, h2, h3, h4
 	position:relative;
 	width:100%;
 	height:auto;
-	color:white;
 	padding-bottom: 20px;
 }
 #menu-2 .section{
@@ -397,7 +395,6 @@ cursor:pointer;
 #events-3
 {
 	background-color: #86b8c8;
-	color:white !important;
 }
 /*END EVENTS SECTION*/
 
@@ -501,7 +498,7 @@ width: 50% !important;
 		top: 25%;
 		height: auto;
 		padding-top: 10px;
-		padding-bottom: 10px;
+		padding-bottom: 20px;
 		border-bottom-right-radius: 10px;
 		border-top-right-radius: 10px;
 		background: #534741;
@@ -815,6 +812,5 @@ top: 100px;
 /*BLOG STYLE*/
 .section.odd {
 background: #86b8c8 !important;
-color: white !important;
 }
 
