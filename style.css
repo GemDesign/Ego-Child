@@ -541,7 +541,10 @@ margin: auto;}
 	 -moz-border-radius: 50%;
 	  border-radius:50%;
 	  max-height:190px;
-	  overflow:hidden;}
+	  overflow:hidden;
+	  /*IE fix for border radius*/
+	  behavior: url('http://bunnyconnellan.ie/wp/wp-content/themes/ego-child/PIE-1.0.0/PIE.htc/');
+}
 
 .menu-thumb a img{
 	position:relative;
@@ -671,15 +674,7 @@ left: 73%;
 top: 100px;
 }
 
-/*IE fix for border radius*/
-.menu-thumb, .menu-thumb a, .menu-thumb a img, .menu-thumb a .menu-thumb-rollover{
--webkit-border-radius: 50%;
--moz-border-radius: 50%;
-border-radius: 50%;
-max-height: 280px;
-overflow: hidden;
-behavior: url(http://bunnyconnellan.ie/wp/wp-content/themes/ego-child/PIE-1.0.0/PIE.htc/);
-}
+
 @media screen and (max-width: 1250px)
 	{
 		.TA_certificateOfExcellence
