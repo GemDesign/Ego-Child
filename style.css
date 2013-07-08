@@ -337,6 +337,7 @@ cursor:pointer;
 #folio-grid 
 {
 	max-width: 1200px !important;
+	text-align:center;
 	z-index: 1;
 	padding: 0;
 	overflow: hidden;
@@ -390,6 +391,9 @@ cursor:pointer;
 	width:auto !important;
 	padding:4% !important;
 	padding-bottom:0% !important;
+	display: inline-table !important;
+	margin: auto !important;
+	float:none !important;
 }
 #ajaxpage{
 	float:none !important;
@@ -580,6 +584,7 @@ width: 50% !important;
 /*THUMB STRUCTURE*/
 #menu-grid{max-width: 1200px !important;
 z-index: 1;
+text-align: center;
 padding: 0;
 overflow: hidden;
 margin: auto;} 
@@ -626,8 +631,8 @@ margin: auto;}
 .menu-thumb-container{
 	width:auto;
 	position:relative;
-	margin:0 0 18px 0;
-	float:left;
+	margin:auto;
+	display: inline-block;
 	padding:1.5%;
 	padding-bottom:0% !important;
 	overflow:hidden; 
