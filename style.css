@@ -507,7 +507,7 @@ margin-top: -30px;
 	margin-top:-60px;
 }
 
-#mc_success_msg{
+.mc_success_msg{
 	width: 300px;
 overflow: hidden;
 float: left;
