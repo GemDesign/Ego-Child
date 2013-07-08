@@ -324,6 +324,10 @@ cursor:pointer;
 	height: auto;
 	color:white;
 }
+#gallery-2 .section.odd .section-title, .section.odd .section-title
+{
+padding-bottom:0px;
+}
 .content.clearfix
 {
 	position: absolute;
