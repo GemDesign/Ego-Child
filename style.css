@@ -779,6 +779,10 @@ top: 100px;
 		{
 			padding: 10px;
 		}
+		.teaser.fixed-desktop
+			{
+				height:120px;
+			}
 			.logo img
 			{
 			width: 150px;
