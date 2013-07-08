@@ -774,6 +774,23 @@ top: 100px;
 	}
 @media screen and (max-width: 480px)
 	{
+		.header 
+		{
+			padding: 10px;
+		}
+			.logo img
+			{
+			width: 150px;
+			height: 40px;
+			}
+			.logo-container
+			{
+			left:45%;
+			}
+			.header .inner select
+			{
+			margin: 0px auto;
+			}
 		.teaser
 		{
 			font-family: Pacifico, arial, helvetica, sans-serif;
