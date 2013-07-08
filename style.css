@@ -490,6 +490,25 @@ width: 50% !important;
 /*END TOUR SECTION*/
 
 /*CONTACT SECTION*/
+#mc_signup_submit{
+height: 45px;
+font: 12px/45px Arial, Helvetica, sans-serif;
+font-weight: normal;
+color: #fff !important;
+background: #111;
+text-decoration: none;
+text-transform: uppercase;
+padding: 0 24px;
+border: 0;
+cursor: pointer;
+outline: 0;
+margin: 0 0 16px 0;
+-webkit-appearance: none;
+border-bottom: 0 !important;
+border-radius: 3px;
+text-shadow: none;
+}
+
 #contact-us-2 .column_two_thirds
 {
 	background:#86b8c8;
