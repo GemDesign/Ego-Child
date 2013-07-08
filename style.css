@@ -108,7 +108,7 @@ body, h1, h2, h3, h4
 	top:20px;
 }
 .menu{
-font-size:25px;
+font-size:20px !important;
 }
 
 .header .inner .menu ul li.current_page_item a, .header .inner .menu ul li.current-menu-item a 
