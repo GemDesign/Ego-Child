@@ -47,14 +47,21 @@ line-height: 51px !important;
 }
 	#vertical
 	{
-	display:inline;
-	color: white !important;
+	font-size: 25px;
+	text-align: center;
+	line-height: 25px;
+	letter-spacing: 0px;
+	position: fixed;
+	left: 0px;
+	top: 25%;
+	height: auto;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	border-bottom-right-radius: 10px;
+	border-top-right-radius: 10px;
+	background: #534741;
 	}
-	#horiz
-	{
-	display:none;
-	color: white !important;
-	}
+
 /*FONT*/
 @font-face {
     font-family: Pacifico;
@@ -537,26 +544,18 @@ margin-top: -30px;
 }
 	#ContactTitle
 	{
-		font-size: 25px;
-		text-align: center;
-		line-height: 25px;
-		letter-spacing: 0px;
-		position: fixed;
-		left: 0px;
-		top: 25%;
-		height: auto;
-		padding-top: 10px;
-		padding-bottom: 20px;
-		border-bottom-right-radius: 10px;
-		border-top-right-radius: 10px;
-		background: #534741;
+		color: white;
+		margin-bottom: 75px;
+		letter-spacing: 4px;
+		position:relative;
+		background:transparent;
 	}
-	#fb
+	.fb
 	{
 		position:relative;
 		top:12px;
 	}
-		#ContactTitle:hover + #facebookLike
+		#vertical:hover + #facebookLike
 		{
 			display: block;
 			cursor: pointer;
@@ -773,6 +772,10 @@ top: 100px;
 			font-size:40px;
 			line-height: 45px;
 		}
+		#ajax-content-outer 
+		{
+		margin-top:10px;
+		}		
 		#folio-navigation
 		{
 		display:none;
@@ -823,23 +826,11 @@ top: 100px;
 		left: 0%;
 		top: 0px;
 		}
-			#ContactTitle
-	{
-		color: white;
-		margin-bottom: 75px;
-		letter-spacing: 4px;
-		position:relative;
-		background:transparent;
-	}
 	#vertical
 	{
 	display:none;
 	}
-	#horiz
-	{
-	display:inline;
-	}
-	#fb
+	.fb
 	{
 		position:relative;
 		left:10px;
