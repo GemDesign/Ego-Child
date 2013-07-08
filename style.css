@@ -107,6 +107,9 @@ body, h1, h2, h3, h4
 	position:fixed !important;
 	top:20px;
 }
+.logo-container {
+top: -10px;
+}
 .menu{
 font-size:20px !important;
 }
