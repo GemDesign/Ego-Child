@@ -82,6 +82,12 @@ body, h1, h2, h3, h4
 	font-size:55px;
 	line-height: 65px;
 }
+.StaticTeaser
+{
+border-top: 5px solid rgba(0,0,0,0.2);
+border-bottom: 5px solid rgba(0,0,0,0.2);
+height:200px;
+}
 /*END TEASER SECTIONS*/
 
 /*HEADER SECTION CSS*/
@@ -799,6 +805,12 @@ top: 100px;
 			font-family: Pacifico, arial, helvetica, sans-serif;
 			font-size:40px;
 			line-height: 45px;
+			height:120px !important;
+		}
+		.StaticTeaser
+		{
+			border-top: 5px solid rgba(0,0,0,0.2);
+			border-bottom: 5px solid rgba(0,0,0,0.2);
 			height:120px !important;
 		}
 		#ajax-content-outer 
