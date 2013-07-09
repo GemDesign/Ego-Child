@@ -513,7 +513,7 @@ width: 50% !important;
 		border: 0px solid white;
 		left: -50px !important;
 		top: 50%;
-		background:rgba(83,71,65,1) url(http://bunnyconnellan.ie/wp/wp-content/themes/ego/images/project-nav.png) 0 0 no-repeat;
+		background:rgba(0,0,0,0.5) url(http://bunnyconnellan.ie/wp/wp-content/themes/ego/images/project-nav.png) 0 0 no-repeat;
 		display:block;
 	}
 		#history .flex-direction-nav li .prev:hover
