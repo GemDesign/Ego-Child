@@ -811,7 +811,7 @@ top: 100px;
 		{
 			border-top: 5px solid rgba(0,0,0,0.2);
 			border-bottom: 5px solid rgba(0,0,0,0.2);
-			height:120px !important;
+			height:100px !important;
 		}
 		#ajax-content-outer 
 		{
