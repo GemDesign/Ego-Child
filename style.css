@@ -497,7 +497,7 @@ width: 50% !important;
 		border: 0px solid white;
 		left: 102% !important;
 		top: 50%;
-		background:rgba(0,0,0,0.5) url(http://bunnyconnellan.ie/wp/wp-content/themes/ego/images/project-nav.png) 0 0 no-repeat;
+		background:rgba(0,0,0,0.5) url(../images/ui_flex/bg_direction_nav.png) 0 0 no-repeat;
 		display:block;
 	}
 	
@@ -510,16 +510,12 @@ width: 50% !important;
 		border: 0px solid white;
 		left: -50px !important;
 		top: 50%;
-		background:rgba(0,0,0,0.5) url(http://bunnyconnellan.ie/wp/wp-content/themes/ego/images/project-nav.png) 0 0 no-repeat;
+		background:rgba(0,0,0,0.5) url(../images/ui_flex/bg_direction_nav.png) 0 0 no-repeat;
 		display:block;
 	}
-		#history .flex-direction-nav li .prev:hover
+		#history .flex-direction-nav li .prev:hover, #history .flex-direction-nav li .next:hover
 		{
-		background:rgba(83,71,65,1) url(http://bunnyconnellan.ie/wp/wp-content/themes/ego/images/project-nav.png) 0 -39px no-repeat;
-		}
-		#history .flex-direction-nav li .next:hover
-		{
-		background:rgba(83,71,65,1) url(http://bunnyconnellan.ie/wp/wp-content/themes/ego/images/project-nav.png) 0 -39px no-repeat;
+		background:rgba(83,71,65,1) url(../images/ui_flex/bg_direction_nav.png) 0 0 no-repeat;
 		}
 /*END HISTORY SECTION*/
 
@@ -944,3 +940,9 @@ background: #86b8c8 !important;
 
 /*GALLERY BORDER HAS TO BE HERE TO OVERWRITE*/
 .section.odd #folio-grid .folio-thumb-container .folio-thumb{border:5px solid white !important;-webkit-box-shadow:inset 0px 0px 0px 10px rgba(255,255,255,0.2);-moz-box-shadow:inset 0px 0px 0px 10px rgba(255,255,255,0.2);box-shadow:inset 0px 0px 0px 10px rgba(255,255,255,0.2);}
+
+/*Events style*/
+#widgetcontainer img {
+-webkit-border-radius: 50px;
+border-radius: 50px;
+}
