@@ -494,8 +494,10 @@ width: 50% !important;
 		-moz-border-radius: 50%;
 		border-radius:50%;
 		position: absolute;
+		border: 0px solid white;
 		left: 102% !important;
 		top: 50%;
+		background:rgba(0,0,0,0.5);
 		display:block;
 	}
 	
@@ -505,11 +507,16 @@ width: 50% !important;
 		-moz-border-radius: 50%;
 		border-radius:50%;
 		position: absolute;
-		left: -5% !important;
+		border: 0px solid white;
+		left: -50px !important;
 		top: 50%;
+		background:rgba(0,0,0,0.5);
 		display:block;
 	}
-
+		#history .flex-direction-nav li .prev:hover, #history .flex-direction-nav li .next:hover
+		{
+		background:534741;
+		}
 /*END HISTORY SECTION*/
 
 
