@@ -487,6 +487,32 @@ width: 50% !important;
 }
 /*END TOUR SECTION*/
 
+/*HISTORY SECTION*/
+	#history .flex-direction-nav li .next
+	{
+		-webkit-border-radius: 50%;
+		-moz-border-radius: 50%;
+		border-radius:50%;
+		position: absolute;
+		left: 102% !important;
+		top: 50%;
+		display:block;
+	}
+	
+	#history .flex-direction-nav li .prev
+	{
+		-webkit-border-radius: 50%;
+		-moz-border-radius: 50%;
+		border-radius:50%;
+		position: absolute;
+		left: -5% !important;
+		top: 50%;
+		display:block;
+	}
+
+/*END HISTORY SECTION*/
+
+
 /*CONTACT SECTION*/
 #mc_signup_submit{
 height: 45px;
