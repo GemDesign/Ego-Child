@@ -922,9 +922,9 @@ top: 100px;
 			width: 120px;
 			height: 120px;
 		}
-		.mc_merge_var input[type=text]
+		.mc_merge_var input[type=submit]
 		{
-		width: 115px;
+		width: 115px !important;
 		}
 		#facebookLike
 		{
