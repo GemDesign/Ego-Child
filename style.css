@@ -829,6 +829,7 @@ top: 100px;
 	{
 		.header 
 		{
+			display:block;
 			padding: 10px;
 		}
 			.logo img
