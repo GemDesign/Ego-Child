@@ -98,6 +98,10 @@ height:200px;
 	display: block !important;
 	opacity: 1 !important;
 }
+.header.mobileHeader
+{
+display:block;
+}
 .nav-button
 {
 	background-color:#86b8c8 !important;
