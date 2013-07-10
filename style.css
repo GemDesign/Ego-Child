@@ -970,6 +970,6 @@ border-radius: 50px;
 	margin-left:25%;
 }
 
-.em-calendar td a{
-	color:#FD7E29;
+.em-calendar thead tr td a{
+	color:#FD7E29 !important;
 }
