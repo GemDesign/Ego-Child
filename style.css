@@ -29,9 +29,9 @@ Version:        0.0.1
 }
 .section.odd .section-title, .section.odd .section-title
 {
-	border-bottom: 1px solid white !important;
+	border-bottom: 0px solid #ddd !important;
 	padding-bottom: 20px;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 }
 .section .section-title h2 {
 font-size: 50px !important;
@@ -936,6 +936,14 @@ top: 100px;
 			{
 				display: block;
 			}
+			
+			#em_calendar-2{
+				margin-left:20%;
+			}
+			
+			#em_widget-2{
+				margin-left:30%;
+			}
 }
 /*BLOG STYLE*/
 .section.odd {
@@ -950,6 +958,7 @@ background: #86b8c8 !important;
 -webkit-border-radius: 50px;
 border-radius: 50px;
 }
+
 
 #em_widget-2{
 	margin-left:25%;
