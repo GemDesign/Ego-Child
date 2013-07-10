@@ -977,9 +977,13 @@ border-radius: 50px;
 #em_widget-2 ul li{
 	float: left !important;
 width: auto !important;
-margin-left: 30px;
+padding:5px !important;
 }
 
 .em-calendar thead tr td a{
 	color:#FD7E29 !important;
+}
+
+#em_calendar-2{
+	margin-left:350px;
 }
