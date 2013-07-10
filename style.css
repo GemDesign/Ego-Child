@@ -969,3 +969,7 @@ border-radius: 50px;
 #em_widget-2{
 	margin-left:25%;
 }
+
+.em-calendar td a{
+	color:#FD7E29;
+}
