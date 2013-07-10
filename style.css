@@ -554,15 +554,13 @@ margin-top: -30px;
 
 #mc_signup_form{
 	margin-top:-90px;
-	padding: 0px;
-}
-.mc_custom_border_hdr
-{
-padding: 0px;
+	padding: 0px !important;
+	height: 150px;
 }
 .mc_custom_border_hdr {
-margin-top: 50px;
+margin-top: 50px !important;
 letter-spacing:2px;
+padding: 0px !important;
 }
 .mc_var_label
 {
@@ -570,7 +568,7 @@ display:none;
 }
 .mc_merge_var input[type=text]
 {
-width:200px;
+width:250px;
 }
 #mc_signup_submit{
 position: relative;
