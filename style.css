@@ -29,9 +29,9 @@ Version:        0.0.1
 }
 .section.odd .section-title, .section.odd .section-title
 {
-	border-bottom: 0px solid #ddd !important;
+	border-bottom: 1px solid white !important;
 	padding-bottom: 20px;
-	margin-bottom: 10px;
+	margin-bottom: 20px;
 }
 .section .section-title h2 {
 font-size: 50px !important;
