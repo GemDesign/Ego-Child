@@ -554,8 +554,30 @@ margin-top: -30px;
 
 #mc_signup_form{
 	margin-top:-90px;
+	padding: 0px;
 }
-
+.mc_custom_border_hdr
+{
+padding: 0px;
+}
+.mc_custom_border_hdr {
+margin-top: 50px;
+letter-spacing:2px;
+}
+.mc_var_label
+{
+display:none;
+}
+.mc_merge_var input[type=text]
+{
+width:200px;
+}
+#mc_signup_submit{
+position: relative;
+top: -65px;
+left: 140px;
+float:none;
+}
 .mc_success_msg{
 	width: 300px;
 overflow: hidden;
@@ -590,7 +612,7 @@ float: left;
 	{
 		color:white;
 		font-size:20px;
-		margin-bottom: 75px;
+		margin-bottom: 0px;
 		letter-spacing: 4px;
 		position:relative;
 		background:transparent;
