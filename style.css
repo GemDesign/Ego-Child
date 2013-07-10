@@ -974,6 +974,12 @@ border-radius: 50px;
 	margin-left:25%;
 }
 
+#em_widget-2 ul li{
+	float: left;
+width: auto;
+margin-left: 30px;
+}
+
 .em-calendar thead tr td a{
 	color:#FD7E29 !important;
 }
