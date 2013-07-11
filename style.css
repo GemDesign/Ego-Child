@@ -1009,6 +1009,10 @@ padding:5px !important;
 	color:white !important;
 }
 
+table.em-calendar td.eventful a, table.em-calendar td.eventful-today a{
+	color:white !important;
+}
+
 #em_calendar-2{
 	margin-left:350px;
 }
