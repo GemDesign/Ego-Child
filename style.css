@@ -607,6 +607,10 @@ float: left;
 	margin-right: 10%;
 	background: #86b8c8;
 }
+	#ContactUS-Social a
+	{
+	color:#534741; !important;
+	}
 	#ContactTitle
 	{
 		color:white;
@@ -616,7 +620,7 @@ float: left;
 		position:relative;
 		background:transparent;
 	}
-		#vertical
+	#vertical
 	{
 	color:white;
 	font-size: 20px;
