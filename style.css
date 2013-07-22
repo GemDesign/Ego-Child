@@ -951,6 +951,12 @@ top: 100px;
 	{
 	display:none;
 	}
+	#mc_signup_submit{
+	position: relative;
+	top: -65px;
+	left: 110px;
+	float:none;
+	}
 	.fb
 	{
 		position:relative;
