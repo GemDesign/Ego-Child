@@ -1049,3 +1049,6 @@ table.em-calendar td.eventful a, table.em-calendar td.eventful-today a{
 }
 .single-event .blog-post-meta{
 display:none}
+.em_widget-2 a{
+	color:white;
+}
