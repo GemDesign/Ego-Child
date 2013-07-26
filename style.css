@@ -147,6 +147,22 @@ font-size:20px !important;
 	z-index: 10;
 	margin-left: 48%;
 }
+.column_two_thirds img
+{
+width:100%;
+}
+.column_two_thirds img
+{
+text-align:center;
+}
+#Happy
+{
+color:white;
+margin:auto;
+font-family: Pacifico, arial, helvetica, sans-serif;
+font-size:35px;
+line-height: 65px;
+}
 
 #home-2
  {
