@@ -147,11 +147,11 @@ font-size:20px !important;
 	z-index: 10;
 	margin-left: 48%;
 }
-.column_two_thirds img
+#home-2 .column_two_thirds img
 {
 width:100%;
 }
-.column_two_thirds
+#home-2 .column_two_thirds
 {
 text-align:center;
 }
