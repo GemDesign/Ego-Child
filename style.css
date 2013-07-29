@@ -1022,9 +1022,6 @@ background: #86b8c8 !important;
 border-radius: 50px;
 }
 
-
-
-
 #em_widget-2 ul li{
 	float: left !important;
 width: auto !important;
@@ -1040,8 +1037,6 @@ table.em-calendar td.eventful a, table.em-calendar td.eventful-today a{
 	color:white !important;
 }
 
-
-
 .single-event .section-title{
 	display:none;
 }
@@ -1052,4 +1047,9 @@ display:none}
 }
 #em_widget-2 ul li ul{
 	color:white !important;
+}
+
+#em_widget-2{
+	margin-left:140px;	
+}
 }
