@@ -1030,6 +1030,7 @@ border-radius: 50px;
 	float: left !important;
 width: auto !important;
 padding:5px !important;
+clear:both;
 }
 
 .em-calendar thead tr td a{
