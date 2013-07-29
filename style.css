@@ -150,6 +150,7 @@ font-size:20px !important;
 #home-2 .column_two_thirds img
 {
 width:98%;
+max-height:400px;
 border:1px solid white;
 }
 #home-2 .column_two_thirds
