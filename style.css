@@ -808,6 +808,11 @@ top: 100px;
 	}
 @media screen and (max-width: 480px)
 	{
+			#home-2 .column_two_thirds img {
+			width: 98%;
+			max-height: 300px;
+			border: 1px solid white;
+			}
 			.header.header-main
 			{
 				display: block !important;
