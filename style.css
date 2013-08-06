@@ -937,7 +937,7 @@ top: 100px;
 			}
 			
 			#em_widget-2{
-				margin-left:0%;
+				margin-left:0% !important;
 			}
 }
 /*BLOG STYLE*/
