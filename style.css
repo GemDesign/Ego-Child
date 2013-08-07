@@ -430,7 +430,8 @@ padding-bottom:0px;
 }
 
 .blog-post{
-	padding-bottom:180px !important;
+	padding-bottom:200px !important;
+overflow:visible !important;
 }
 /*END EVENTS SECTION*/
 
