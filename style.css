@@ -428,6 +428,10 @@ padding-bottom:0px;
 {
 	background-color: #86b8c8;
 }
+
+.blog-post{
+	padding-bottom:180px !important;
+}
 /*END EVENTS SECTION*/
 
 /*TOUR SECTION*/
