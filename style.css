@@ -810,6 +810,9 @@ top: 100px;
 		left: 0%;
 		top: 0px;
 		}
+			.section .clearfix{
+			margin-bottom:300px !important;
+		}
 	}
 	
 	@media only screen and (max-width: 479px)
@@ -857,7 +860,7 @@ top: 100px;
 			height:100px !important;
 		}
 		
-		.content .clearfix{
+			.section .clearfix{
 			margin-bottom:300px !important;
 		}
 		#ajax-content-outer 
