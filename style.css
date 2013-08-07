@@ -846,7 +846,7 @@ top: 100px;
 		}
 		
 		.content .clearfix{
-			height:900px;
+			height:1500px !important;
 		}
 		#ajax-content-outer 
 		{
