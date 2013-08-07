@@ -844,6 +844,10 @@ top: 100px;
 			border-bottom: 5px solid rgba(0,0,0,0.2);
 			height:100px !important;
 		}
+		
+		.content .clearfix{
+			height:900px;
+		}
 		#ajax-content-outer 
 		{
 		margin-top:10px;
