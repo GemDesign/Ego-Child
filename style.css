@@ -428,7 +428,9 @@ padding-bottom:0px;
 {
 	background-color: #86b8c8;
 }
-
+.clearfix a{
+	color:white !important;
+}
 .blog-post{
 	padding-bottom:200px !important;
 overflow:visible !important;
