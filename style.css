@@ -806,6 +806,13 @@ top: 100px;
 		top: 0px;
 		}
 	}
+	
+	@media only screen and (max-width: 479px)
+	{
+		.section .clearfix{
+			margin-bottom:300px !important;
+		}
+	}
 @media screen and (max-width: 480px)
 	{
 			#home-2 .column_two_thirds img {
