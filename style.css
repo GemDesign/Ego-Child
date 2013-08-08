@@ -528,6 +528,9 @@ display:none;
 width: 115px;
 width:250px;
 }
+.mc_success_msg {
+color: white !important;
+}
 #mc_signup_submit{
 position: relative;
 top: -65px;
