@@ -528,8 +528,10 @@ display:none;
 width: 115px;
 width:250px;
 }
-.mc_success_msg {
+.mc_error_msg {
 color: white !important;
+float: left;
+max-width: 200px !important;
 }
 #mc_signup_submit{
 position: relative;
@@ -538,7 +540,8 @@ left: 135px;
 float:none;
 }
 .mc_success_msg{
-	width: 300px;
+color: white !important;
+width: 300px;
 overflow: hidden;
 float: left;
 }
