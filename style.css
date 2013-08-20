@@ -128,7 +128,7 @@ font-size:20px !important;
 
 #home-2 .column_two_thirds img
 {
-width:98%;
+max-width:98%;
 max-height:400px;
 border:1px solid white;
 }
@@ -420,13 +420,22 @@ padding-bottom:0px;
 /*END GALLERY SECTION */
 
 /*EVENTS SECTION*/
-#widgetcontainer{
-	float:left;
-	width:50%;
+#widgetcontainer {
+text-align: center;
+float: left;
+width: 50%;
 }
 #events-3
 {
 	background-color: #86b8c8;
+}
+#events-3 .column_one_third
+{
+margin-right: 2.666% !important;
+}
+#events-3 .column_two_thirds .last
+{
+width: 66.66% !important;
 }
 .clearfix a{
 	color:white !important;
@@ -808,9 +817,7 @@ position: absolute;
 left: 73%;
 top: 100px;
 }
-
-
-@media screen and (max-width: 1250px)
+@media screen and (max-width: 1150px)
 	{
 		.TA_certificateOfExcellence
 		{
@@ -818,22 +825,158 @@ top: 100px;
 		left: 0%;
 		top: 0px;
 		}
-			.section .clearfix{
-			margin-bottom:300px !important;
+		.menu {
+		font-size: 16px !important;
+		right: 30px;
 		}
+		#contact-us-2 .column_two_thirds {
+		background: #86b8c8;
+		width: 96%;
+		padding: 2%;
+		margin-bottom: 40px !important;
+		}
+
 	}
-	
-	@media only screen and (max-width: 479px)
+
+@media screen and (max-width: 1024px)
 	{
-		.section .clearfix{
-			margin-bottom:300px !important;
+		#ContactUS-Social {
+		float: left;
+		height: 50%;
+		top: 10%;
+		left: 10%;
+		margin-right: 30%;
+		}
+		#contact-us-2 .column_two_thirds {
+		background: #86b8c8;
+		width: 90%;
+		padding: 5%;
+		margin-bottom: 40px !important;
+		}
+		#contactMessage {
+		float: left;
+		width: 300px;
+		}
+		.menu {
+		font-size: 16px !important;
+		right: 30px;
+		}
+		.header .inner .menu ul li {
+		float: left;
+		padding: 0 0px !important;
+		margin: 0;
+		}
+		#vertical
+		{
+		display:none;
+		}
+		#events-3 .column_one_third {
+		margin-right: 1.666% !important;
+		margin-left: 1%;
 		}
 	}
+@media screen and (max-width: 1000px)
+	{
+		.header 
+		{
+		padding:10px !important;
+		padding-top: 10px !important;
+		}
+		.header .logo-container {
+		position: relative;
+		left: 0% !important;
+		margin-left: 0px !important;
+		}
+	}
+@media screen and (max-width: 979px)
+	{
+		.header 
+		{
+		padding:0px !important;
+		padding-top: 10px !important;
+		}
+		#contact-us-2 .column_two_thirds {
+		background: #86b8c8;
+		width: 96%;
+		padding: 2%;
+		margin-bottom: 40px !important;
+		}
+		.header .logo-container {
+		position: relative;
+		left: 30% !important;
+		margin-left: 0px !important;
+		}
+	}
+@media screen and (max-width: 800px)
+	{
+		.header {
+		padding:0px !important;
+		padding-top: 10px !important;
+		}
+		.header .logo-container {
+		position: relative;
+		left: 30% !important;
+		margin-left: 0px !important;
+		}
+		
+		#ContactUS-Social {
+		float: left;
+		height: 50%;
+		top: 10%;
+		left: 10%;
+		margin-right: 15%;
+		}
+		#contact-us-2 .column_two_thirds {
+		background: #86b8c8;
+		width: 96%;
+		padding: 2%;
+		margin-bottom: 40px !important;
+		}
+		#contactMessage {
+		float: left;
+		width: 300px;
+		}
+		.menu {
+		font-size: 16px !important;
+		right: 30px;
+		}
+		.header .inner .menu ul li {
+		float: left;
+		padding: 0 0px !important;
+		margin: 0;
+		}
+		#contact-form {
+		width: 200px;
+		}
+		#vertical
+		{
+		display:none;
+		}
+	}
+
 @media screen and (max-width: 480px)
 	{
+			.header .inner .menu ul li {
+			float: left;
+			padding: 0 10px !important;
+			margin: 0;
+			}
+			.clear
+			{
+			height:30px !important;
+			}
+			.section.odd {
+			padding-top: 80px !important;
+			}
+			#home-2 h2 {
+			padding-top: 0px;
+			}
 			#home-2 .column_two_thirds img {
-			width: 98%;
-			max-height: 300px;
+			max-width: 80%;
+			width: auto;
+			margin:0px auto;
+			float:none;
+			max-height: 150px;
 			border: 1px solid white;
 			}
 			.header.header-main
@@ -867,10 +1010,6 @@ top: 100px;
 			border-bottom: 5px solid rgba(0,0,0,0.2);
 			height:100px !important;
 		}
-		
-			.section .clearfix{
-			margin-bottom:300px !important;
-		}
 		#ajax-content-outer 
 		{
 		margin-top:10px;
@@ -903,6 +1042,18 @@ top: 100px;
 		{
 		width: 120px;
 		}
+		#widgetcontainer {
+		text-align: center;
+		float: left;
+		width: 90%;
+		}
+			#em_calendar-2{
+			margin-top: 50px;
+			}
+			
+			#em_widget-2{
+				margin-left:0% !important;
+			}
 		.folio-thumb
 		{
 			width: 120px;
@@ -963,13 +1114,8 @@ top: 100px;
 			{
 				display: block;
 			}
-			
-			#em_calendar-2{
-				margin-left:-15% !important;
-			}
-			
-			#em_widget-2{
-				margin-left:0% !important;
+			#footer {
+			padding: 15px 0 !important;
 			}
 }
 /*BLOG STYLE*/
@@ -988,8 +1134,8 @@ border-radius: 50px;
 
 #em_widget-2 ul li{
 	float: left !important;
-width: auto !important;
-padding:5px !important;
+margin: 0px auto !important;
+padding:0px !important;
 clear:both;
 }
 
@@ -1014,13 +1160,12 @@ display:none}
 }
 
 #em_widget-2{
-	margin-left:140px;	
+	margin: 0px auto;
 }
 
-#em_calendar-2{
-	margin-left:240px;
+.em-calendar{
+	margin: 0px auto;
 }
-
 #em_widget-3 ul li{
 	color:white;
 }

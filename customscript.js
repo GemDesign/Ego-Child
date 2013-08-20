@@ -654,45 +654,81 @@ jQuery(function ($) {
 	/*menu
 	-------------------*/
 	var MenuContent = $('#MenuContent');
-	var Evening = $('#Evening');
 	var Lunch = $('#Lunch');
+	var Kids = $('#Kids');
+	var EarlyEvening = $('#EarlyEvening');
+	var Evening = $('#Evening');
 	var Specials = $('#Specials');
-	var Party = $('#Party');
+	var FingerFood = $('#FingerFood');
+	var Wine = $('#Wine');
+	var Cocktail = $('#Cocktail');
 	var BBQ = $('#BBQ');
-	var Christmas = $('#Christmas');
+	var SetMenus = $('#SetMenus');
 
 
+	function HideMenus()
+	{
+		Lunch.slideUp();
+		Kids.slideUp();
+		EarlyEvening.slideUp();
+		Evening.slideUp();
+		Specials.slideUp();
+		FingerFood.slideUp();
+		Wine.slideUp();
+		Cocktail.slideUp();
+		BBQ.slideUp();
+		SetMenus.slideUp();				
+	
+	}
 	$('#lunchContainer').click(function (){
 		if(MenuContent.is(":hidden")){
 			MenuContent.slideDown();
-			$("html, body").animate({ scrollTop: $('#lunchContainer').offset().top + 485}, 1000);
+			$("html, body").animate({ scrollTop: $('#lunchContainer').offset().top + 380}, 1000);
 		}
 		if(MenuContent.is(":visible")){
-			Evening.hide();
+			HideMenus();
 			Lunch.slideDown();
-			Specials.slideUp();
-			Party.slideUp();
-			BBQ.slideUp();
-			Christmas.slideUp();
 
-			$("html, body").animate({ scrollTop: $('#lunchContainer').offset().top + 485}, 1000);
+			$("html, body").animate({ scrollTop: $('#lunchContainer').offset().top + 380}, 1000);
 		}
 
 	});
+	$('#kidsContainer').click(function (){
+		if(MenuContent.is(":hidden")){
+			MenuContent.slideDown();
+			$("html, body").animate({ scrollTop: $('#kidsContainer').offset().top + 380}, 1000);
+		}
+		if(MenuContent.is(":visible")){
+			HideMenus();
+			Kids.slideDown();
 
+			$("html, body").animate({ scrollTop: $('#kidsContainer').offset().top + 380}, 1000);
+		}
+
+	});
+	$('#earlyEveningContainer').click(function (){
+		if(MenuContent.is(":hidden")){
+			MenuContent.slideDown();
+			$("html, body").animate({ scrollTop: $('#earlyEveningContainer').offset().top + 380}, 1000);
+		}
+		if(MenuContent.is(":visible")){
+		HideMenus();
+		EarlyEvening.slideDown();
+		
+			$("html, body").animate({ scrollTop: $('#earlyEveningContainer').offset().top + 380}, 1000);
+
+		}
+	});
 	$('#eveningContainer').click(function (){
 		if(MenuContent.is(":hidden")){
 			MenuContent.slideDown();
-			$("html, body").animate({ scrollTop: $('#eveningContainer').offset().top + 485}, 1000);
+			$("html, body").animate({ scrollTop: $('#eveningContainer').offset().top + 380}, 1000);
 		}
 		if(MenuContent.is(":visible")){
-			Evening.slideDown();
-			Lunch.slideUp();
-			Specials.slideUp();
-			Party.slideUp();
-			BBQ.slideUp();
-			Christmas.slideUp();
-			$("html, body").animate({ scrollTop: $('#eveningContainer').offset().top + 485}, 1000);
+		HideMenus();
+		Evening.slideDown();
+		
+			$("html, body").animate({ scrollTop: $('#eveningContainer').offset().top + 380}, 1000);
 
 		}
 	});
@@ -700,71 +736,83 @@ jQuery(function ($) {
 	$('#specialsContainer').click(function (){
 		if(MenuContent.is(":hidden")){
 			MenuContent.slideDown();
-			$("html, body").animate({ scrollTop: $('#specialsContainer').offset().top + 485}, 1000);
+			$("html, body").animate({ scrollTop: $('#specialsContainer').offset().top + 380}, 1000);
 
 		}
 		if(MenuContent.is(":visible")){
-			Evening.slideUp();
-			Lunch.slideUp();
+			HideMenus();
 			Specials.slideDown();
-			Party.slideUp();
-			BBQ.slideUp();
-			Christmas.slideUp();
-			$("html, body").animate({ scrollTop: $('#specialsContainer').offset().top + 485}, 1000);
+			$("html, body").animate({ scrollTop: $('#specialsContainer').offset().top + 380}, 1000);
 		}
 	});
 
-	$('#partyContainer').click(function (){
+	$('#wineContainer').click(function (){
 		if(MenuContent.is(":hidden")){
 			MenuContent.slideDown();
-			$("html, body").animate({ scrollTop: $('#partyContainer').offset().top + 180}, 1000);
+			$("html, body").animate({ scrollTop: $('#wineContainer').offset().top + 180}, 1000);
 		}
 		if(MenuContent.is(":visible")){
-			Evening.slideUp();
-			Lunch.slideUp();
-			Specials.slideUp();
-			BBQ.slideUp();
-			Christmas.slideUp();
-			Party.slideDown();
-			$("html, body").animate({ scrollTop: $('#partyContainer').offset().top + 180}, 1000);
+			HideMenus();
+			Wine.slideDown();
+			$("html, body").animate({ scrollTop: $('#wineContainer').offset().top + 150}, 1000);
 		}
 	});
 
-	$('#bbqContainer').click(function (){
+	$('#cocktailContainer').click(function (){
 		if(MenuContent.is(":hidden")){
 			MenuContent.slideDown();
-			$("html, body").animate({ scrollTop: $('#bbqContainer').offset().top + 180}, 1000);
+			$("html, body").animate({ scrollTop: $('#cocktailContainer').offset().top + 180}, 1000);
 
 		}
 		if(MenuContent.is(":visible")){
-			Evening.slideUp();
-			Lunch.slideUp();
-			Specials.slideUp();
-			Party.slideUp();
-			Christmas.slideUp();
+			HideMenus();
+			Cocktail.slideDown();
+			$("html, body").animate({ scrollTop: $('#cocktailContainer').offset().top + 150}, 1000);
+		}
+	});
+	
+	$('#fingerfoodContainer').click(function (){
+		if(MenuContent.is(":hidden")){
+			MenuContent.slideDown();
+			$("html, body").animate({ scrollTop: $('#fingerfoodContainer').offset().top + 180}, 1000);
+
+		}
+		if(MenuContent.is(":visible")){
+			HideMenus();
+			FingerFood.slideDown();
+			$("html, body").animate({ scrollTop: $('#fingerfoodContainer').offset().top + 150}, 1000);
+		}
+	});
+	
+	$('#BBQContainer').click(function (){
+		if(MenuContent.is(":hidden")){
+			MenuContent.slideDown();
+			$("html, body").animate({ scrollTop: $('#BBQContainer').offset().top + 180}, 1000);
+
+		}
+		if(MenuContent.is(":visible")){
+			HideMenus();
 			BBQ.slideDown();
-			$("html, body").animate({ scrollTop: $('#bbqContainer').offset().top + 150}, 1000);
+			$("html, body").animate({ scrollTop: $('#BBQContainer').offset().top + 150}, 1000);
+		}
+	});
+	
+	$('#SetMenusContainer').click(function (){
+		if(MenuContent.is(":hidden")){
+			MenuContent.slideDown();
+			$("html, body").animate({ scrollTop: $('#SetMenusContainer').offset().top + 180}, 1000);
+
+		}
+		if(MenuContent.is(":visible")){
+			HideMenus();
+			SetMenus.slideDown();
+			$("html, body").animate({ scrollTop: $('#SetMenusContainer').offset().top + 150}, 1000);
 		}
 	});
 
 	//CHANGE THIS VALUE FOR THE IMAGE GALLERY SCROLL UP CSS HERE
 	$('.folio-thumb').animate({ scrollTop: $('.lazy').offset().top + 180}, 1000);
 
-	$('#christmasContainer').click(function (){
-		if(MenuContent.is(":hidden")){
-			MenuContent.slideDown();
-			$("html, body").animate({ scrollTop: $('#christmasContainer').offset().top + 180}, 1000);
-		}
-		if(MenuContent.is(":visible")){
-			Evening.slideUp();
-			Lunch.slideUp();
-			Specials.slideUp();
-			Party.slideUp();
-			BBQ.slideUp();
-			Christmas.slideDown();
-			$("html, body").animate({ scrollTop: $('#christmasContainer').offset().top + 180}, 1000);
-		}
-	});
 
 	$('#menu-primary li').click(function(){
 		MenuContent.hide();
@@ -776,12 +824,16 @@ jQuery(function ($) {
 
 	$('.upArrow').click(function(){
 		MenuContent.hide();
-		Evening.hide();
 		Lunch.hide();
+		Kids.hide();
+		EarlyEvening.hide();
+		Evening.hide();
 		Specials.hide();
-		Party.hide();
+		FingerFood.hide();
+		Wine.hide();
+		Cocktail.hide();
 		BBQ.hide();
-		Christmas.hide();
+		SetMenus.hide();	
 	})	
 
 		//ROLLOVER SPECIFIC ---------------------------------------------------------------------/
@@ -804,7 +856,7 @@ jQuery(function ($) {
 		target,
 		hoverSpeed=500,
 		hoverEase='easeOutExpo';
-
+	
 	foliothumb.on({
 		mouseenter: function () {
 			//check if device is mobile 
@@ -889,11 +941,83 @@ $('.pagedown').each(function(){
 	buttoncount++;
 });
 
-//Adding titles to the nav buttons
-$('.next').attr('title','Keyboard arrows can be used to easily navigate the Gallery');
-$('.prev').attr('title','Keyboard arrows can be used to easily navigate the Gallery');
+/*GALLERY NAVIGATION DESKTOP*/
 
+/*CLICK IMAGE TO MOVE FORWARD*/
+$("body").on("click", ".slides img", function(){
+	$('.next').click();
+});
+/*NEXT/PREVIOUS PROJECT BUTTONS USED TO TRIGGER NEXT/PREVIOUS SLIDES*/
+$("#nextProject a").click(function(){
+	$('.next').click();
+});
+$("#prevProject a").click(function(){
+	$('.prev').click();
+});
+$( document ).ready(function(){
+	$(".inner select option:selected").remove();
+	});
+if(isMobile === true) {
+	$(".header.header-main").css("Display", "Block");
 
+	/*ADDING SWIPE MESSAGE FOR MOBILES*/
+	$("#gallery-2 .section-title").append('<span id = "swipe">Swipe pictures to move between them</span>');
+	$("#history .section-title").append('<span id = "swipe">Swipe pictures to move between them</span>');
+	
+	/*ADDING TITLE TO MENU CIRCLES ON MOBILE DEVICES*/
+	$("#lunchContainer").append('<div class="titleAppend">Lunch Menu</div>');
+	$("#eveningContainer").append('<div class="titleAppend">Evening Menu</div>');
+	$("#specialsContainer").append('<div class="titleAppend">Specials Menu</div>');
+	$("#earlyEveningContainer").append('<div class="titleAppend">Early Evening Menu</div>');
+	$("#kidsContainer").append('<div class="titleAppend">Kids Menu</div>');
+	$("#fingerfoodContainer").append('<div class="titleAppend">Finger Food</div>');
+	$("#cocktailContainer").append('<div class="titleAppend">Cocktail List</div>');
+	$("#wineContainer").append('<div class="titleAppend">Wine List</div>');
+	$("#BBQContainer").append('<div class="titleAppend">BBQ</div>');
+	$("#SetMenusContainer").append('<div class="titleAppend">Set Menus</div>');
+	
+	 
+	 /*ADDING TITLE TO Gallery CIRCLES ON MOBILE DEVICES*/
+	$('a[title=Beach]').append('<div class="folioAppend">Beach</div>');
+	$('a[title^=Food]').append('<div class="folioAppend">Food & Drink</div>');
+	$('a[title^=Look]').append('<div class="folioAppend">Look Inside</div>');
+	$('a[title^=Nights]').append('<div class="folioAppend">Nights Out</div>');
+	$('a[title^=The]').append('<div class="folioAppend">The Views</div>');
+	$('a[title^=Meet]').append('<div class="folioAppend">Meet the Team</div>');
+}
+$('#ContactTitle').mouseenter(function(){
+	$("#facebookLike").css("Display", "Block");
+});
+$('#facebookLike').mouseenter(function(){
+	$("#facebookLike").css("Display", "Block");
+});
+$('#facebookLike').mouseleave(function(){
+	$("#facebookLike").css("Display", "none");
+});
+$('#ContactTitle').mouseleave(function(){
+	$("#facebookLike").css("Display", "none");
+});
+	function mobileMenu(){
 
+		//reveal 
+
+		if ($(window).scrollTop() <= wh) {
+
+			$('.header').show();
+
+		} else {
+
+			$('.header').show();
+
+		}
+
+		$('.header').css({top:'0px'});
+
+		$('.header.mobileHeader').css({position:'fixed'});
+
+	}
 
 });//END OF JQUERY FUNCTION($){}
+
+
+
