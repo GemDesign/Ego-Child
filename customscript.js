@@ -958,6 +958,7 @@ $( document ).ready(function(){
 	$(".inner select option:selected").remove();
 	});
 if(isMobile === true) {
+
 	$(".header.header-main").css("Display", "Block");
 
 	/*ADDING SWIPE MESSAGE FOR MOBILES*/
@@ -970,7 +971,7 @@ if(isMobile === true) {
 	$("#specialsContainer").append('<div class="titleAppend">Specials Menu</div>');
 	$("#earlyEveningContainer").append('<div class="titleAppend">Early Evening Menu</div>');
 	$("#kidsContainer").append('<div class="titleAppend">Kids Menu</div>');
-	$("#fingerfoodContainer").append('<div class="titleAppend">Finger Food</div>');
+	$("#fingerfoodContainer").append('<div class="titleAppend">Party/Finger Food</div>');
 	$("#cocktailContainer").append('<div class="titleAppend">Cocktail List</div>');
 	$("#wineContainer").append('<div class="titleAppend">Wine List</div>');
 	$("#BBQContainer").append('<div class="titleAppend">BBQ</div>');
